@@ -1,0 +1,1499 @@
+Company,Country,Industry,Date,Total_Laid_off
+"Tamara Mellon",USA,Retail,2020-03-12,20
+HopSkipDrive,USA,Transportation,2020-03-13,8
+"Panda Squad",USA,Consumer,2020-03-13,6
+Help.com,USA,Support,2020-03-16,16
+Inspirato,USA,Travel,2020-03-16,130
+Flytedesk,USA,Marketing,2020-03-18,4
+"Remote Year",USA,Travel,2020-03-19,50
+CTO.ai,Canada,Infrastructure,2020-03-20,30
+"Flywheel Sports",USA,Fitness,2020-03-20,784
+Compass,USA,"Real Estate",2020-03-23,375
+Convene,USA,"Real Estate",2020-03-23,150
+GrayMeta,USA,Data,2020-03-23,20
+"Ladder Life",USA,Finance,2020-03-23,13
+Leafly,USA,Retail,2020-03-23,91
+"The Guild",USA,Travel,2020-03-23,38
+Triplebyte,USA,HR,2020-03-23,15
+Foodsby,USA,Food,2020-03-24,87
+Sonder,USA,Travel,2020-03-24,400
+"Zeus Living",USA,"Real Estate",2020-03-24,80
+Jama,USA,Product,2020-03-25,12
+OutboundEngine,USA,Marketing,2020-03-25,52
+Overtime,USA,Media,2020-03-25,30
+WanderJaunt,USA,Travel,2020-03-25,56
+Wonderschool,USA,Education,2020-03-25,50
+B8ta,USA,Retail,2020-03-26,250
+Consider.co,USA,Other,2020-03-26,13
+Ecobee,Canada,Energy,2020-03-26,47
+GoSpotCheck,USA,Retail,2020-03-26,23
+Peerspace,USA,"Real Estate",2020-03-26,41
+Puppet,USA,Infrastructure,2020-03-26,50
+Bench,Canada,Finance,2020-03-27,47
+Bevi,USA,Food,2020-03-27,30
+Bird,USA,Transportation,2020-03-27,406
+Blueground,USA,"Real Estate",2020-03-27,130
+DataRobot,USA,Data,2020-03-27,200
+Getaround,USA,Transportation,2020-03-27,100
+HOOQ,Singapore,Consumer,2020-03-27,250
+Knotel,USA,"Real Estate",2020-03-27,127
+Mogo,Canada,Finance,2020-03-27,78
+Textio,USA,HR,2020-03-27,30
+Zipcar,USA,Transportation,2020-03-27,100
+TravelTriangle,India,Travel,2020-03-28,250
+Amplero,USA,Marketing,2020-03-29,17
+ZipRecruiter,USA,HR,2020-03-29,400
+FabHotels,India,Travel,2020-03-30,80
+Hibob,Israel,HR,2020-03-30,70
+"Iris Nova",USA,Food,2020-03-30,9
+Loftsmart,USA,"Real Estate",2020-03-30,25
+Maven,USA,Media,2020-03-30,31
+PeerStreet,USA,Finance,2020-03-30,51
+RigUp,USA,Energy,2020-03-30,120
+Thumbtack,USA,Consumer,2020-03-30,250
+AdRoll,USA,Marketing,2020-03-31,210
+DialSource,USA,Marketing,2020-03-31,5
+KeepTruckin,USA,Logistics,2020-03-31,349
+Rover,USA,Consumer,2020-03-31,194
+Turo,USA,Transportation,2020-03-31,108
+uShip,USA,Logistics,2020-03-31,65
+Zenoti,USA,Fitness,2020-03-31,17
+Acko,India,Finance,2020-04-01,45
+"Aqua Security",Israel,Security,2020-04-01,24
+Crayon,USA,Marketing,2020-04-01,20
+Earnin,USA,Finance,2020-04-01,50
+Highsnobiety,Germany,Media,2020-04-01,51
+"Incredible Health",USA,Healthcare,2020-04-01,9
+PatientPop,USA,Healthcare,2020-04-01,100
+Sensibill,Canada,Finance,2020-04-01,17
+Showpad,USA,Marketing,2020-04-01,52
+Usermind,USA,Marketing,2020-04-01,15
+Wonolo,USA,HR,2020-04-01,46
+1stdibs,USA,Retail,2020-04-02,70
+ClassPass,USA,Fitness,2020-04-02,154
+"Coding Dojo",USA,Education,2020-04-02,7
+"Dynamic Signal",USA,HR,2020-04-02,35
+eGym,Germany,Fitness,2020-04-02,100
+Industrious,USA,"Real Estate",2020-04-02,90
+Instamojo,India,Finance,2020-04-02,6
+Jobcase,USA,HR,2020-04-02,39
+Katerra,USA,Construction,2020-04-02,240
+MindBody,USA,Fitness,2020-04-02,700
+Ritual,Canada,Food,2020-04-02,196
+"Sauce Labs",USA,Infrastructure,2020-04-02,30
+Synergysuite,USA,Food,2020-04-02,5
+"The Predictive Investment",USA,HR,2020-04-02,59
+ThirdLove,USA,Retail,2020-04-02,65
+TripleLift,USA,Marketing,2020-04-02,23
+"Arrive Logistics",USA,Logistics,2020-04-03,75
+"Bustle Digital Group",USA,Media,2020-04-03,24
+D2iQ,USA,Infrastructure,2020-04-03,34
+Gympass,Brazil,Fitness,2020-04-03,467
+Jetty,USA,Finance,2020-04-03,35
+Minted,USA,Retail,2020-04-03,147
+Opencare,Canada,Healthcare,2020-04-03,18
+Salsify,USA,Retail,2020-04-03,60
+Sojern,USA,Marketing,2020-04-03,300
+Iflix,Malaysia,Consumer,2020-04-04,50
+Astra,USA,Aerospace,2020-04-05,40
+Borrowell,Canada,Finance,2020-04-06,15
+BounceX,USA,Marketing,2020-04-06,77
+BusBud,Canada,Transportation,2020-04-06,23
+Cogito,USA,Support,2020-04-06,24
+Metromile,USA,Finance,2020-04-06,100
+PerkSpot,USA,HR,2020-04-06,10
+"Rock Content",Brazil,Marketing,2020-04-06,100
+Wordstream,USA,Marketing,2020-04-06,26
+Away,USA,Retail,2020-04-07,60
+"Branch Metrics",USA,Marketing,2020-04-07,100
+ezCater,USA,Food,2020-04-07,400
+"Group Nine Media",USA,Media,2020-04-07,50
+Ibotta,USA,Retail,2020-04-07,87
+MediaMath,USA,Marketing,2020-04-07,53
+Redfin,USA,"Real Estate",2020-04-07,236
+"Sage Therapeutics",USA,Healthcare,2020-04-07,340
+Toast,USA,Food,2020-04-07,1300
+Button,USA,Marketing,2020-04-08,48
+"Eden / Managed â€¦",USA,"Real Estate",2020-04-08,40
+Eventbrite,USA,Consumer,2020-04-08,500
+GetNinjas,Brazil,Consumer,2020-04-08,11
+Kenoby,Brazil,HR,2020-04-08,18
+Lever,USA,HR,2020-04-08,86
+Meesho,India,Retail,2020-04-08,200
+Quantcast,USA,Marketing,2020-04-08,30
+Scoop,USA,Transportation,2020-04-08,92
+Spyce,USA,Food,2020-04-08,4
+Unbabel,Portugal,Support,2020-04-08,80
+Unison,USA,Finance,2020-04-08,89
+VideoAmp,USA,Marketing,2020-04-08,21
+Clinc,USA,Support,2020-04-09,40
+Code42,USA,Data,2020-04-09,25
+Domo,USA,Data,2020-04-09,90
+LoopMe,UK,Marketing,2020-04-09,8
+Matterport,USA,Data,2020-04-09,90
+Mejuri,Canada,Retail,2020-04-09,36
+Omie,Brazil,Finance,2020-04-09,136
+OneTrust,USA,Legal,2020-04-09,150
+Yelp,USA,Consumer,2020-04-09,1000
+Atsu,USA,Infrastructure,2020-04-10,6
+Frontdesk,USA,Travel,2020-04-10,35
+NuoDB,USA,Data,2020-04-10,20
+Rhumbix,USA,Construction,2020-04-10,16
+Clearbanc,Canada,Finance,2020-04-13,17
+EasyPost,USA,Logistics,2020-04-13,50
+Neon,Brazil,Finance,2020-04-13,70
+Zoox,USA,Transportation,2020-04-13,100
+Envoy,USA,HR,2020-04-14,58
+"The RealReal",USA,Retail,2020-04-14,235
+TouchBistro,Canada,Food,2020-04-14,131
+VSCO,USA,Consumer,2020-04-14,45
+Carta,USA,Finance,2020-04-15,161
+GoPro,USA,Consumer,2020-04-15,200
+"Kodiak Robotics",USA,Transportation,2020-04-15,15
+Opendoor,USA,"Real Estate",2020-04-15,600
+Parsable,USA,HR,2020-04-15,40
+Shop101,India,Retail,2020-04-15,200
+Zume,USA,Food,2020-04-15,200
+CarGurus,USA,Transportation,2020-04-16,130
+CleverTap,India,Marketing,2020-04-16,60
+"Funding Societies",Singapore,Finance,2020-04-16,65
+ContaAzul,Brazil,Education,2020-04-17,140
+Greenhouse,USA,HR,2020-04-17,120
+Loft,Brazil,"Real Estate",2020-04-17,47
+People.ai,USA,Marketing,2020-04-17,30
+QuintoAndar,Brazil,"Real Estate",2020-04-17,88
+Sweetgreen,USA,Food,2020-04-17,35
+Tor,USA,Security,2020-04-17,13
+Zilingo,Singapore,Retail,2020-04-17,44
+ConsenSys,USA,Crypto,2020-04-20,91
+Forward,USA,Healthcare,2020-04-20,10
+GumGum,USA,Marketing,2020-04-20,90
+Klook,"Hong Kong",Travel,2020-04-20,300
+"Komodo Health",USA,Healthcare,2020-04-20,23
+Kueski,Mexico,Finance,2020-04-20,90
+Movidesk,Brazil,Support,2020-04-20,33
+Bringg,Israel,Logistics,2020-04-21,10
+Casper,USA,Retail,2020-04-21,78
+Freshbooks,Canada,Finance,2020-04-21,38
+Houzz,USA,Consumer,2020-04-21,155
+"Lending Club",USA,Finance,2020-04-21,460
+Patreon,USA,Media,2020-04-21,30
+RealSelf,USA,Healthcare,2020-04-21,40
+Swiggy,India,Food,2020-04-21,800
+Ike,USA,Transportation,2020-04-22,10
+"Magic Leap",USA,Consumer,2020-04-22,1000
+"When I Work",USA,HR,2020-04-22,55
+Sisense,USA,Data,2020-04-23,80
+StockX,USA,Retail,2020-04-23,100
+Zenefits,USA,HR,2020-04-23,87
+"Ada Support",Canada,Support,2020-04-24,36
+"Divergent 3D",USA,Transportation,2020-04-24,57
+"Horizn Studios",Germany,Travel,2020-04-24,15
+Jiobit,USA,Consumer,2020-04-24,6
+"Lighter Capital",USA,Finance,2020-04-24,18
+TutorMundi,Brazil,Education,2020-04-24,4
+UPshow,USA,Marketing,2020-04-24,19
+"Welkin Health",USA,Healthcare,2020-04-24,10
+Submittable,USA,Other,2020-04-25,30
+"Automation Anything",USA,Other,2020-04-27,260
+JetClosing,USA,"Real Estate",2020-04-27,20
+"App Annie",USA,Data,2020-04-28,80
+Deliveroo,UK,Food,2020-04-28,367
+OpenX,USA,Marketing,2020-04-28,35
+PayJoy,USA,Finance,2020-04-28,27
+Shipsi,USA,Retail,2020-04-28,20
+TripAdvisor,USA,Travel,2020-04-28,900
+"Kayak / OpenTable",USA,Travel,2020-04-29,160
+Lime,USA,Transportation,2020-04-29,80
+Lyft,USA,Transportation,2020-04-29,982
+"TranSan Francisco Bay Areaix",USA,Logistics,2020-04-29,24
+"Culture Trip",UK,Media,2020-05-01,95
+Namely,USA,HR,2020-05-01,110
+"Sandbox VR",USA,Consumer,2020-05-01,80
+TheSkimm,USA,Media,2020-05-01,26
+Trax,Israel,Retail,2020-05-03,120
+Careem,"United Arabian Emirates",Transportation,2020-05-04,536
+CureFit,India,Fitness,2020-05-04,800
+Deputy,Australia,HR,2020-05-04,60
+"Element AI",Canada,Other,2020-05-04,62
+Loopio,Canada,Sales,2020-05-04,11
+Oriente,"Hong Kong",Finance,2020-05-04,400
+Veriff,Estonia,Security,2020-05-04,63
+Airbnb,USA,Travel,2020-05-05,1900
+Andela,USA,HR,2020-05-05,135
+Juul,USA,Consumer,2020-05-05,900
+"Stack Overflow",USA,HR,2020-05-05,40
+Workable,USA,HR,2020-05-05,25
+"Rubicon Project",USA,Marketing,2020-05-06,50
+Segment,USA,Data,2020-05-06,50
+Uber,USA,Transportation,2020-05-06,3700
+Flywire,USA,Finance,2020-05-07,60
+Glassdoor,USA,HR,2020-05-07,300
+Jump,USA,Transportation,2020-05-07,500
+Numbrs,Switzerland,Finance,2020-05-07,62
+Tally,USA,Finance,2020-05-07,28
+N26,USA,Finance,2020-05-08,9
+Cadre,USA,"Real Estate",2020-05-11,28
+Revolut,UK,Finance,2020-05-11,60
+Hireology,USA,HR,2020-05-12,36
+Mixpanel,USA,Data,2020-05-12,65
+"Top Hat",Canada,Education,2020-05-12,16
+"Zeus Living",USA,"Real Estate",2020-05-12,73
+Deliv,USA,Retail,2020-05-13,669
+Kickstarter,USA,Finance,2020-05-13,25
+Mercos,Brazil,Sales,2020-05-13,51
+Cruise,USA,Transportation,2020-05-14,150
+"Integral Ad Science",USA,Marketing,2020-05-14,70
+Ridecell,USA,Transportation,2020-05-14,35
+Lattice,USA,HR,2020-05-15,16
+Lendingkart,India,Finance,2020-05-15,500
+Zomato,India,Food,2020-05-15,520
+Swiggy,India,Food,2020-05-18,1100
+Uber,USA,Transportation,2020-05-18,3000
+WeWork,India,"Real Estate",2020-05-18,100
+Livspace,India,Retail,2020-05-19,450
+Pollen,UK,Travel,2020-05-19,69
+Intercom,USA,Support,2020-05-20,39
+Ola,India,Transportation,2020-05-20,1400
+Samsara,USA,Logistics,2020-05-20,300
+ShareChat,India,Marketing,2020-05-20,101
+SoFi,USA,Finance,2020-05-20,112
+"Stay Alfred",USA,Travel,2020-05-20,221
+Cvent,USA,Marketing,2020-05-21,400
+Glitch,USA,Product,2020-05-21,18
+PickYourTrail,India,Travel,2020-05-21,70
+Bluprint,USA,Education,2020-05-26,137
+Uber,India,Transportation,2020-05-26,600
+Ebanx,Brazil,Finance,2020-05-27,62
+Instructure,USA,Education,2020-05-27,150
+BookMyShow,India,Consumer,2020-05-28,270
+"Culture Amp",Australia,HR,2020-05-28,36
+"The Sill",USA,Retail,2020-05-28,20
+TrueCar,USA,Transportation,2020-05-28,219
+Brex,USA,Finance,2020-05-29,62
+Loftium,USA,"Real Estate",2020-05-29,32
+CrowdStreet,USA,"Real Estate",2020-06-01,24
+"Stitch Fix",USA,Retail,2020-06-01,1400
+"Descartes Labs",USA,Data,2020-06-02,12
+Fundbox,USA,Finance,2020-06-02,14
+Rivian,USA,Transportation,2020-06-02,40
+"Credit Sesame",USA,Finance,2020-06-03,22
+Monzo,UK,Finance,2020-06-03,120
+SpotHero,USA,Transportation,2020-06-03,40
+Builder,USA,Product,2020-06-04,39
+Lastline,USA,Security,2020-06-04,50
+"Ethos Life",USA,Finance,2020-06-05,18
+"The Athletic",USA,Media,2020-06-05,46
+Branch,USA,Retail,2020-06-11,3
+SynapseFI,USA,Finance,2020-06-12,63
+PaisaBazaar,India,Finance,2020-06-16,1500
+Redox,USA,Healthcare,2020-06-16,44
+Splunk,USA,Data,2020-06-16,70
+Navi,India,Finance,2020-06-17,40
+Intuit,USA,Finance,2020-06-22,715
+Dark,USA,Product,2020-06-23,6
+Gojek,Indonesia,Transportation,2020-06-23,430
+ScaleFactor,USA,Finance,2020-06-23,90
+Sonos,USA,Consumer,2020-06-24,174
+Bounce,India,Transportation,2020-06-29,130
+Katerra,USA,Construction,2020-06-29,400
+G2,USA,Marketing,2020-06-30,17
+Zilingo,Singapore,Retail,2020-07-09,100
+Skyscanner,UK,Travel,2020-07-14,300
+Optimizely,USA,Marketing,2020-07-15,60
+"Lighter Capital",USA,Finance,2020-07-20,22
+LinkedIn,USA,HR,2020-07-21,960
+Checkr,USA,HR,2020-07-23,64
+Swiggy,India,Food,2020-07-27,350
+Zeitgold,Germany,Finance,2020-07-27,75
+Procore,USA,Construction,2020-07-28,180
+Buy.com,USA,Retail,2020-07-30,87
+Thriver,Canada,Food,2020-08-06,75
+Glossier,USA,Retail,2020-08-07,150
+Eatsy,Singapore,Food,2020-08-08,20
+Mozilla,USA,Consumer,2020-08-11,250
+Docly,UK,Healthcare,2020-08-19,8
+"SaleSan Francisco Bay Areaorce",USA,Sales,2020-08-26,1000
+MakeMyTrip,India,Travel,2020-08-31,350
+GoBear,Singapore,Finance,2020-09-01,22
+Waze,USA,Transportation,2020-09-09,30
+NS8,USA,Data,2020-09-11,240
+"Alto Pharmacy",USA,Healthcare,2020-09-29,47
+GetYourGuide,Germany,Travel,2020-10-14,90
+Knotel,USA,"Real Estate",2020-10-29,20
+Worksmith,USA,Retail,2020-11-09,30
+"Bridge Connector",USA,Healthcare,2020-11-17,154
+Aya,Canada,Finance,2020-11-19,5
+Breather,Canada,"Real Estate",2020-12-16,120
+Dropbox,USA,Other,2021-01-13,315
+Pocketmath,Singapore,Marketing,2021-01-20,21
+Postmates,USA,Food,2021-01-23,180
+Hubba,Canada,Retail,2021-02-01,45
+Quandoo,Germany,Food,2021-02-03,87
+Bounce,India,Transportation,2021-02-22,200
+"New Relic",USA,Infrastructure,2021-04-06,160
+Katerra,USA,Construction,2021-06-01,2434
+Flockjay,USA,Education,2021-08-24,37
+Treehouse,USA,Education,2021-09-14,41
+Zillow,USA,"Real Estate",2021-11-02,2000
+BitTitan,USA,Data,2021-11-18,70
+Better.com,USA,"Real Estate",2021-12-01,900
+Glossier,USA,Consumer,2022-01-26,80
+Gopuff,USA,Food,2022-01-26,100
+Rhino,USA,"Real Estate",2022-02-03,57
+Peloton,USA,Fitness,2022-02-08,2800
+"Daily Harvest",USA,Food,2022-02-10,60
+Hopin,UK,Other,2022-02-10,138
+Homie,USA,"Real Estate",2022-02-14,119
+"Liv Up",Brazil,Food,2022-02-16,100
+"Virgin Hyperloop",USA,Transportation,2022-02-21,111
+Wish,USA,Retail,2022-03-01,190
+Hyperscience,USA,Data,2022-03-03,100
+"Adaptive Biotechnology",USA,Healthcare,2022-03-08,100
+Better.com,USA,"Real Estate",2022-03-08,3000
+Knock,USA,"Real Estate",2022-03-15,115
+Trell,India,Retail,2022-03-15,300
+Storytel,Sweden,Media,2022-03-17,100
+Gopuff,USA,Food,2022-03-29,450
+Thinkific,Canada,Education,2022-03-29,100
+Rasa,Germany,Data,2022-03-30,59
+Legible,Canada,Media,2022-04-04,23
+Unacademy,India,Education,2022-04-07,1000
+Food52,USA,Food,2022-04-08,20
+"Rad Power Bikes",USA,Transportation,2022-04-12,100
+Ahead,USA,Healthcare,2022-04-14,44
+Blend,USA,Finance,2022-04-19,200
+QuintoAndar,Brazil,"Real Estate",2022-04-19,160
+Facily,Brazil,Retail,2022-04-20,260
+Xiaohongshu,China,Consumer,2022-04-21,180
+Bonsai,Canada,Retail,2022-04-26,29
+Robinhood,USA,Finance,2022-04-26,340
+Domestika,USA,Education,2022-04-28,150
+Avo,Israel,Food,2022-05-01,500
+Cameo,USA,Consumer,2022-05-04,87
+Mainstreet,USA,Finance,2022-05-04,45
+SEND,Australia,Food,2022-05-04,300
+Mural,USA,Product,2022-05-05,90
+"On Deck",USA,Education,2022-05-05,72
+Vedantu,India,Education,2022-05-05,200
+Meero,France,Other,2022-05-09,350
+Doma,USA,Finance,2022-05-10,310
+Latch,USA,Security,2022-05-10,30
+Pollen,UK,Travel,2022-05-10,200
+DataRobot,USA,Data,2022-05-11,70
+"AliExpress Russia",Russia,Retail,2022-05-14,400
+Zak,Brazil,Food,2022-05-16,100
+Kry,Sweden,Healthcare,2022-05-17,100
+Netflix,USA,Media,2022-05-17,150
+Picsart,USA,Consumer,2022-05-17,90
+Vedantu,India,Education,2022-05-18,424
+Cars24,India,Transportation,2022-05-19,600
+Latch,USA,Security,2022-05-20,130
+Outside,USA,Media,2022-05-20,87
+Skillz,USA,Consumer,2022-05-20,70
+MFine,India,Healthcare,2022-05-21,600
+Airtime,USA,Consumer,2022-05-23,30
+BeyondMinds,Israel,Data,2022-05-23,65
+Buenbit,Argentina,Crypto,2022-05-23,80
+ClickUp,USA,Other,2022-05-23,60
+Klarna,Sweden,Finance,2022-05-23,700
+Gorillas,Germany,Food,2022-05-24,300
+Bolt,USA,Finance,2022-05-25,240
+"Coterie Insurance",USA,Finance,2022-05-25,30
+Kontist,Germany,Finance,2022-05-25,50
+Lacework,USA,Security,2022-05-25,300
+Nuri,Germany,Finance,2022-05-25,45
+Bitso,Mexico,Crypto,2022-05-26,80
+VTEX,Brazil,Retail,2022-05-26,200
+FrontRow,India,Education,2022-05-27,145
+Uncapped,UK,Finance,2022-05-27,29
+"Mobile Premier League",India,Consumer,2022-05-30,100
+SumUp,Brazil,Finance,2022-05-30,100
+SWVL,"United Arabian Emirates",Transportation,2022-05-30,400
+BookClub,USA,Education,2022-05-31,12
+Tomo,USA,Finance,2022-05-31,44
+2TM,Brazil,Crypto,2022-06-01,90
+Curve,UK,Finance,2022-06-01,65
+Cybereason,USA,Security,2022-06-01,100
+Impala,UK,Travel,2022-06-01,30
+Loom,USA,Product,2022-06-01,34
+Udayy,India,Education,2022-06-01,100
+"Carbon Health",USA,Healthcare,2022-06-02,250
+Gather,USA,Consumer,2022-06-02,30
+Gemini,USA,Crypto,2022-06-02,100
+IRL,USA,Consumer,2022-06-02,25
+PolicyGenius,USA,Finance,2022-06-02,170
+Stord,USA,Logistics,2022-06-02,59
+Yojak,India,Construction,2022-06-02,140
+Food52,USA,Food,2022-06-03,21
+Superhuman,USA,Consumer,2022-06-03,23
+Dutchie,USA,Other,2022-06-06,50
+Bird,USA,Transportation,2022-06-07,138
+Cazoo,UK,Transportation,2022-06-07,750
+Rupeek,India,Finance,2022-06-07,180
+"iPrice Group",Malaysia,Retail,2022-06-08,50
+Sonder,USA,Travel,2022-06-08,250
+Truepill,USA,Healthcare,2022-06-08,150
+Boozt,Sweden,Retail,2022-06-09,70
+Convoy,USA,Logistics,2022-06-09,90
+Hologram,USA,Infrastructure,2022-06-09,80
+OneTrust,USA,Security,2022-06-09,950
+Preply,USA,Education,2022-06-09,26
+Stashaway,Singapore,Finance,2022-06-09,31
+"Stitch Fix",USA,Retail,2022-06-09,330
+"The Grommet",USA,Retail,2022-06-09,40
+Albert,USA,Finance,2022-06-10,20
+"Berlin Brands Group",Germany,Retail,2022-06-10,100
+Crypto.com,Singapore,Crypto,2022-06-10,260
+FarEye,India,Logistics,2022-06-10,250
+Freetrade,UK,Finance,2022-06-10,45
+Sanar,Brazil,Healthcare,2022-06-10,60
+BlockFi,USA,Crypto,2022-06-13,250
+Studio,USA,Education,2022-06-13,33
+"Wave Sports and Entertainment",USA,Media,2022-06-13,56
+Breathe,India,Healthcare,2022-06-14,50
+Coinbase,USA,Crypto,2022-06-14,1100
+Redfin,USA,"Real Estate",2022-06-14,470
+Sami,Brazil,Healthcare,2022-06-14,75
+TIFIN,USA,Crypto,2022-06-14,24
+Notarize,USA,Legal,2022-06-15,110
+OpenWeb,Israel,Media,2022-06-15,14
+Swappie,Finland,Retail,2022-06-15,250
+Swyft,Canada,Logistics,2022-06-15,10
+Tonkean,USA,Other,2022-06-15,23
+Wealthsimple,Canada,Finance,2022-06-15,159
+Weee!,USA,Food,2022-06-15,150
+JOKR,USA,Food,2022-06-16,50
+Zumper,USA,"Real Estate",2022-06-16,45
+"Finite State",USA,Security,2022-06-17,16
+Socure,USA,Finance,2022-06-17,69
+Unacademy,India,Education,2022-06-18,150
+BitOasis,"United Arabian Emirates",Crypto,2022-06-19,9
+CityMall,India,Retail,2022-06-19,191
+Aqgromalin,India,Food,2022-06-20,80
+Bonsai,Canada,Retail,2022-06-20,30
+Brighte,Australia,Energy,2022-06-20,30
+SummerBio,USA,Healthcare,2022-06-20,101
+Trax,Singapore,Retail,2022-06-20,100
+Community,USA,Marketing,2022-06-21,40
+Ebanx,Brazil,Finance,2022-06-21,340
+Sourcegraph,USA,Product,2022-06-21,24
+IronNet,USA,Security,2022-06-22,90
+MasterClass,USA,Education,2022-06-22,120
+Ritual,Canada,Food,2022-06-22,23
+Superpedestrian,USA,Transportation,2022-06-22,35
+Voi,Sweden,Transportation,2022-06-22,35
+Aura,USA,Security,2022-06-23,70
+Netflix,USA,Media,2022-06-23,300
+Pipl,USA,Security,2022-06-23,22
+Vouch,USA,Finance,2022-06-23,15
+"Voyage SMS",USA,Marketing,2022-06-23,8
+Bestow,USA,Finance,2022-06-24,41
+Bitpanda,Austria,Crypto,2022-06-24,270
+"Ethos Life",USA,Finance,2022-06-24,40
+Sunday,USA,Finance,2022-06-24,90
+AppLovin,USA,Marketing,2022-06-27,300
+Banxa,Australia,Crypto,2022-06-27,70
+SafeGraph,USA,Data,2022-06-27,27
+UiPath,USA,Data,2022-06-27,210
+"Bright Machines",USA,Data,2022-06-28,30
+HealthMatch,Australia,Healthcare,2022-06-28,18
+Huobi,China,Crypto,2022-06-28,300
+"Sidecar Health",USA,Healthcare,2022-06-28,110
+StockX,USA,Retail,2022-06-28,120
+Vezeeta,"United Arabian Emirates",Healthcare,2022-06-28,50
+Baton,USA,Transportation,2022-06-29,16
+Clutch,Canada,Transportation,2022-06-29,76
+Niantic,USA,Consumer,2022-06-29,85
+"Oye Rickshaw",India,Transportation,2022-06-29,40
+Qumulo,USA,Data,2022-06-29,80
+Rows,Germany,Other,2022-06-29,18
+Substack,USA,Media,2022-06-29,13
+Unity,USA,Other,2022-06-29,200
+Abra,USA,Crypto,2022-06-30,12
+Crejo.Fun,India,Education,2022-06-30,170
+Enjoy,USA,Retail,2022-06-30,400
+"Finleap Connect",Germany,Finance,2022-06-30,14
+Nate,USA,Retail,2022-06-30,30
+"Stash Financial",USA,Finance,2022-06-30,40
+Stream,USA,Product,2022-06-30,20
+Canoo,USA,Transportation,2022-07-01,58
+Teleport,USA,Infrastructure,2022-07-01,15
+WanderJaunt,USA,Travel,2022-07-01,85
+Celsius,USA,Crypto,2022-07-03,150
+Lendis,Germany,Other,2022-07-04,18
+Lightricks,Israel,Consumer,2022-07-04,80
+Sendle,Australia,Logistics,2022-07-04,27
+Bizzabo,USA,Marketing,2022-07-05,120
+Bullish,"Hong Kong",Crypto,2022-07-05,30
+eToro,Israel,Finance,2022-07-05,100
+Loft,Brazil,"Real Estate",2022-07-05,384
+Outschool,USA,Education,2022-07-05,31
+Syte,Israel,Retail,2022-07-05,13
+Thimble,USA,Finance,2022-07-05,20
+"Transmit Security",USA,Security,2022-07-05,27
+Verbit,USA,Data,2022-07-05,80
+Anodot,Israel,Data,2022-07-06,35
+Remote,USA,HR,2022-07-06,100
+SQream,USA,Data,2022-07-06,30
+Emotive,USA,Marketing,2022-07-07,30
+"Next Insurance",USA,Finance,2022-07-07,150
+"Butler Hospitality",USA,Food,2022-07-08,1000
+Calibrate,USA,Healthcare,2022-07-08,156
+Hopin,UK,Other,2022-07-11,242
+SundaySky,USA,Marketing,2022-07-11,24
+Gopuff,USA,Food,2022-07-12,1500
+Hubilo,USA,Marketing,2022-07-12,45
+Arrival,UK,Transportation,2022-07-13,480
+Bryter,Germany,Product,2022-07-13,100
+ChowNow,USA,Food,2022-07-13,100
+Fabric,USA,Logistics,2022-07-13,120
+Involves,Brazil,Retail,2022-07-13,70
+Tonal,USA,Fitness,2022-07-13,262
+Wave,Senegal,Finance,2022-07-13,300
+Kiavi,USA,"Real Estate",2022-07-14,39
+"The Mom Project",USA,HR,2022-07-14,54
+"Unstoppable Do.",USA,Crypto,2022-07-14,42
+Zego,UK,Finance,2022-07-14,85
+"Bright Money",India,Finance,2022-07-15,100
+Heroes,UK,Retail,2022-07-15,24
+Project44,USA,Logistics,2022-07-15,63
+Gemini,USA,Crypto,2022-07-18,68
+Lusha,USA,Marketing,2022-07-18,30
+"Olive AI",USA,Healthcare,2022-07-19,450
+Flyhomes,USA,"Real Estate",2022-07-20,200
+Forma.ai,Canada,Sales,2022-07-20,15
+Introhive,Canada,Sales,2022-07-20,57
+Lyft,USA,Transportation,2022-07-20,60
+Zencity,Israel,Other,2022-07-20,30
+Blockchain.com,UK,Crypto,2022-07-21,150
+Lunchbox,USA,Food,2022-07-21,60
+"Rad Power Bikes",USA,Transportation,2022-07-21,63
+RealSelf,USA,Healthcare,2022-07-21,11
+WHOOP,USA,Fitness,2022-07-21,95
+"Clarify Health",USA,Healthcare,2022-07-22,15
+Eucalyptus,Australia,Healthcare,2022-07-22,50
+Quanto,Brazil,Finance,2022-07-22,28
+Soluto,Israel,Support,2022-07-24,120
+"Pear Therapeutics",USA,Healthcare,2022-07-25,25
+Dover,USA,HR,2022-07-26,23
+Fiverr,Israel,Other,2022-07-26,60
+Immutable,Australia,Crypto,2022-07-26,20
+InDebted,Australia,Finance,2022-07-26,40
+Outbrain,USA,Marketing,2022-07-26,38
+Shopify,Canada,Retail,2022-07-26,1000
+Coinsquare,Canada,Crypto,2022-07-27,30
+Rivian,USA,Transportation,2022-07-27,840
+Skai,Israel,Marketing,2022-07-27,30
+"Vox Media",USA,Media,2022-07-27,39
+"Career Karma",USA,Education,2022-07-28,60
+Metromile,USA,Finance,2022-07-28,60
+Clearco,Canada,Finance,2022-07-29,125
+Quantcast,USA,Marketing,2022-07-29,40
+Metigy,Australia,Marketing,2022-07-31,75
+Vee,Israel,HR,2022-07-31,16
+Hash,Brazil,Finance,2022-08-01,58
+Glossier,USA,Retail,2022-08-02,19
+Latch,USA,Security,2022-08-02,115
+Nylas,USA,Product,2022-08-02,80
+Outreach,USA,Sales,2022-08-02,60
+Robinhood,USA,Finance,2022-08-02,713
+Sendy,Kenya,Logistics,2022-08-02,84
+Stedi,USA,Product,2022-08-02,23
+"Beyond Meat",USA,Food,2022-08-03,40
+Unbounce,Canada,Marketing,2022-08-03,47
+"10X Genomics",USA,Healthcare,2022-08-04,100
+Doma,USA,Finance,2022-08-04,250
+"Jam City",USA,Consumer,2022-08-04,200
+LEAD,India,Education,2022-08-04,80
+"On Deck",USA,Education,2022-08-04,73
+RenoRun,Canada,Construction,2022-08-04,70
+iRobot,USA,Consumer,2022-08-05,140
+Mejuri,Canada,Retail,2022-08-05,50
+Uberflip,Canada,Marketing,2022-08-05,31
+Loggi,Brazil,Logistics,2022-08-08,500
+Perion,Israel,Marketing,2022-08-08,20
+GoHealth,USA,Healthcare,2022-08-09,800
+Hootsuite,Canada,Marketing,2022-08-09,400
+Linktree,Australia,Consumer,2022-08-09,50
+MadeiraMadeira,Brazil,Retail,2022-08-09,60
+Nutanix,USA,Infrastructure,2022-08-09,270
+Quanterix,USA,Healthcare,2022-08-09,130
+Shogun,USA,Retail,2022-08-09,48
+Permutive,UK,Marketing,2022-08-10,30
+Trybe,Brazil,Education,2022-08-10,47
+Calm,USA,Healthcare,2022-08-11,90
+FourKites,USA,Logistics,2022-08-11,60
+Marketforce,Kenya,Retail,2022-08-11,54
+Truepill,USA,Healthcare,2022-08-11,175
+Peloton,USA,Fitness,2022-08-12,784
+Blend,USA,Finance,2022-08-15,220
+ContraFect,USA,Healthcare,2022-08-15,16
+Sema4,USA,Healthcare,2022-08-15,250
+AlayaCare,Canada,Healthcare,2022-08-16,80
+Pliops,Israel,Data,2022-08-16,12
+Woven,USA,HR,2022-08-16,5
+Malwarebytes,USA,Security,2022-08-17,125
+"New Relic",USA,Infrastructure,2022-08-18,110
+Wheel,USA,Healthcare,2022-08-18,35
+Amperity,USA,Marketing,2022-08-20,13
+NSO,Israel,Security,2022-08-21,100
+Tufin,USA,Security,2022-08-21,55
+DataRobot,USA,Data,2022-08-23,242
+Packable,USA,Retail,2022-08-23,138
+Plato,USA,HR,2022-08-23,29
+Q4,Canada,Other,2022-08-23,50
+Skedulo,USA,HR,2022-08-23,31
+"Tier Mobility",Germany,Transportation,2022-08-23,180
+Loop,USA,Finance,2022-08-24,15
+Reali,USA,"Real Estate",2022-08-24,140
+Argyle,USA,Finance,2022-08-26,20
+54gene,USA,Healthcare,2022-08-29,95
+"Immersive Labs",UK,Security,2022-08-30,38
+"Apartment List",USA,"Real Estate",2022-08-31,29
+GoodRx,USA,Healthcare,2022-08-31,140
+"Hippo Insurance",USA,Finance,2022-08-31,70
+Smava,Germany,Finance,2022-08-31,100
+Snap,USA,Consumer,2022-08-31,1280
+TCR2,USA,Healthcare,2022-08-31,30
+2TM,Brazil,Crypto,2022-09-01,100
+Innovaccer,USA,Healthcare,2022-09-01,90
+"Urban Sports Club",Germany,Fitness,2022-09-01,55
+Kuda,Nigeria,Finance,2022-09-02,23
+"Brave Care",USA,Healthcare,2022-09-06,40
+Lawgeex,Israel,Legal,2022-09-06,30
+Demandbase,USA,Sales,2022-09-07,27
+Intercom,USA,Support,2022-09-07,49
+Pendo,USA,Product,2022-09-07,45
+"Simple Feast",Denmark,Food,2022-09-07,150
+"Pomelo Fashion",Thailand,Retail,2022-09-08,55
+Compete,Israel,HR,2022-09-12,11
+Checkout.com,UK,Finance,2022-09-13,100
+Patreon,USA,Media,2022-09-13,80
+Rubius,USA,Healthcare,2022-09-13,160
+Taboola,USA,Marketing,2022-09-13,100
+Infarm,Germany,Other,2022-09-14,50
+Pitch,Germany,Marketing,2022-09-14,59
+Twilio,USA,Other,2022-09-14,800
+Acast,Sweden,Media,2022-09-15,70
+LivePerson,USA,Support,2022-09-15,193
+WorkRamp,USA,HR,2022-09-15,35
+Clear,India,Finance,2022-09-16,190
+TrueLayer,UK,Finance,2022-09-16,40
+"Vesalius Therapeutics",USA,Healthcare,2022-09-19,29
+99,Brazil,Transportation,2022-09-20,75
+Ada,Canada,Support,2022-09-20,78
+Compass,USA,"Real Estate",2022-09-20,271
+"Kitty Hawk",USA,Aerospace,2022-09-21,100
+NYDIG,USA,Crypto,2022-09-22,110
+Foxtrot,USA,Food,2022-09-23,26
+Moss,Germany,Finance,2022-09-23,70
+Truiloo,Canada,Security,2022-09-23,24
+"Divvy Homes",USA,"Real Estate",2022-09-27,40
+DocuSign,USA,Sales,2022-09-28,671
+Mux,USA,Infrastructure,2022-09-29,40
+Spin,USA,Transportation,2022-09-30,78
+8x8,USA,Support,2022-10-04,200
+Homie,USA,"Real Estate",2022-10-04,40
+Zoomo,Australia,Transportation,2022-10-04,65
+"Built In",USA,HR,2022-10-05,50
+Crypto.com,Singapore,Crypto,2022-10-06,2000
+"Impossible Foods",USA,Food,2022-10-06,50
+Peloton,USA,Fitness,2022-10-06,500
+BioMarin,USA,Healthcare,2022-10-07,120
+Momentive,USA,Marketing,2022-10-10,180
+"Pavilion Data",USA,Infrastructure,2022-10-10,96
+"Redesign Health",USA,Healthcare,2022-10-10,67
+Brex,USA,Finance,2022-10-11,136
+Linkfire,Denmark,Marketing,2022-10-11,35
+Noom,USA,Healthcare,2022-10-11,500
+Pacaso,USA,"Real Estate",2022-10-11,100
+Udacity,USA,Education,2022-10-11,55
+6sense,USA,Sales,2022-10-12,150
+FrontRow,India,Education,2022-10-12,130
+Playdots,USA,Consumer,2022-10-13,65
+"Beyond Meat",USA,Food,2022-10-14,200
+Flipboard,USA,Media,2022-10-16,24
+Faire,USA,Retail,2022-10-18,84
+Leafly,USA,Retail,2022-10-18,56
+AtoB,USA,Finance,2022-10-19,32
+Gopuff,USA,Food,2022-10-19,250
+InfoSum,UK,Security,2022-10-19,20
+Hotmart,Brazil,Marketing,2022-10-20,227
+Loom,USA,Product,2022-10-20,23
+"Zeus Living",USA,"Real Estate",2022-10-20,64
+Elinvar,Germany,Finance,2022-10-21,43
+Khoros,USA,Sales,2022-10-21,120
+Synapsica,India,Healthcare,2022-10-21,30
+"Antidote Health",Israel,Healthcare,2022-10-23,23
+OrCam,Israel,Healthcare,2022-10-23,62
+Cerebral,USA,Healthcare,2022-10-24,400
+Snyk,USA,Security,2022-10-24,198
+Unico,Brazil,Other,2022-10-24,50
+Embroker,USA,Finance,2022-10-25,30
+Fundbox,USA,Finance,2022-10-25,150
+Vee,Israel,HR,2022-10-25,17
+"Argo AI",USA,Transportation,2022-10-26,173
+Cybereason,USA,Security,2022-10-26,200
+MindBody,USA,Fitness,2022-10-26,400
+Zillow,USA,"Real Estate",2022-10-26,300
+Recharge,USA,Finance,2022-10-27,84
+RenoRun,Canada,Construction,2022-10-27,210
+Amazon,USA,Retail,2022-10-28,150
+"Fifth Season",USA,Food,2022-10-28,100
+Equitybee,USA,Finance,2022-10-31,25
+EquityZen,USA,Finance,2022-10-31,30
+Kry,Sweden,Healthcare,2022-10-31,300
+Gem,USA,HR,2022-11-01,100
+Hootsuite,Canada,Marketing,2022-11-01,50
+Oda,Norway,Food,2022-11-01,70
+Upstart,USA,Finance,2022-11-01,140
+Chargebee,USA,Finance,2022-11-02,142
+Checkmarx,Israel,Security,2022-11-02,100
+Chime,USA,Finance,2022-11-02,156
+"Dapper Labs",Canada,Crypto,2022-11-02,134
+"Iron Ox",USA,Food,2022-11-02,50
+Smava,Germany,Finance,2022-11-02,100
+"Delivery Hero",Germany,Food,2022-11-03,100
+Lyft,USA,Transportation,2022-11-03,700
+Pleo,Denmark,Finance,2022-11-03,150
+Shippo,USA,Logistics,2022-11-03,60
+Stripe,USA,Finance,2022-11-03,1000
+Exodus,USA,Crypto,2022-11-04,59
+KoinWorks,Indonesia,Finance,2022-11-04,70
+Planetly,Germany,Other,2022-11-04,200
+Twitter,USA,Consumer,2022-11-04,3700
+Varonis,USA,Security,2022-11-06,110
+Dock,Brazil,Finance,2022-11-07,190
+"SaleSan Francisco Bay Areaorce",USA,Sales,2022-11-07,1000
+Unacademy,India,Education,2022-11-07,350
+Zendesk,USA,Support,2022-11-07,350
+"Repertoire Immunity",USA,Healthcare,2022-11-08,65
+AvantStay,USA,Travel,2022-11-09,144
+Flyhomes,USA,"Real Estate",2022-11-09,300
+Kabam,USA,Consumer,2022-11-09,35
+Liftoff,USA,Marketing,2022-11-09,130
+Meta,USA,Consumer,2022-11-09,11000
+Namogoo,Israel,Marketing,2022-11-09,25
+Plum,India,Healthcare,2022-11-09,36
+Redfin,USA,"Real Estate",2022-11-09,862
+"Root Insurance",USA,Finance,2022-11-09,137
+Blend,USA,Finance,2022-11-10,100
+"GoTo Group",Indonesia,Transportation,2022-11-10,1300
+InfluxData,USA,Data,2022-11-10,65
+Juul,USA,Consumer,2022-11-10,400
+Ocavu,USA,Crypto,2022-11-10,20
+SoundHound,USA,Other,2022-11-10,45
+Forto,Germany,Logistics,2022-11-11,60
+Veev,USA,"Real Estate",2022-11-11,100
+Cloudinary,USA,Media,2022-11-14,40
+iFit,USA,Fitness,2022-11-14,300
+Illumina,USA,Healthcare,2022-11-14,500
+Intercom,USA,Support,2022-11-14,124
+Pipedrive,Estonia,Sales,2022-11-14,143
+Ribbon,USA,"Real Estate",2022-11-14,170
+Asana,USA,Other,2022-11-15,180
+CaptivateIQ,USA,Sales,2022-11-15,31
+Jimdo,Germany,Other,2022-11-15,50
+OwnBackup,USA,Security,2022-11-15,170
+Amazon,USA,Retail,2022-11-16,10000
+Cisco,USA,Infrastructure,2022-11-16,4100
+Lokalise,USA,Other,2022-11-16,76
+"Pear Therapeutics",USA,Healthcare,2022-11-16,59
+Salsify,USA,Retail,2022-11-16,90
+Similarweb,USA,Other,2022-11-16,120
+Twiga,Kenya,Food,2022-11-16,211
+Wayflyer,Ireland,Marketing,2022-11-16,200
+Yotpo,USA,Marketing,2022-11-16,70
+&Open,Ireland,Marketing,2022-11-17,9
+Capitolis,USA,Finance,2022-11-17,37
+Juni,Sweden,Finance,2022-11-17,72
+Koho,Canada,Finance,2022-11-17,15
+Roku,USA,Media,2022-11-17,200
+TealBook,Canada,Other,2022-11-17,34
+Carvana,USA,Transportation,2022-11-18,1500
+Nuro,USA,Transportation,2022-11-18,300
+Synthego,USA,Healthcare,2022-11-18,105
+Zomato,India,Food,2022-11-19,100
+Kitopi,"United Arabian Emirates",Food,2022-11-21,93
+SIRCLO,Indonesia,Retail,2022-11-22,160
+Trax,Singapore,Retail,2022-11-22,80
+Lemon,Argentina,Crypto,2022-11-24,100
+Quidax,Nigeria,Crypto,2022-11-24,20
+Carwow,UK,Transportation,2022-11-25,70
+Vendease,Nigeria,Food,2022-11-25,27
+"VerSe Innovation",India,Media,2022-11-25,150
+Ajaib,Indonesia,Finance,2022-11-28,67
+ApplyBoard,Canada,Education,2022-11-28,90
+"Candy Digital",USA,Crypto,2022-11-28,33
+Infarm,Germany,Other,2022-11-28,500
+ResearchGate,Germany,Other,2022-11-28,25
+"Wildlife Studios",Brazil,Consumer,2022-11-28,300
+CoinJar,Australia,Crypto,2022-11-29,10
+Lyst,UK,Retail,2022-11-29,50
+DoorDash,USA,Food,2022-11-30,1250
+Grin,USA,Marketing,2022-11-30,60
+"Happy Money",USA,Finance,2022-11-30,158
+Kraken,USA,Crypto,2022-11-30,1100
+Teachmint,India,Education,2022-11-30,45
+Thread,UK,Retail,2022-11-30,30
+UalÃ¡,Argentina,Finance,2022-11-30,53
+Ula,Indonesia,Retail,2022-11-30,134
+Wonder,USA,Food,2022-11-30,130
+Bizzabo,USA,Marketing,2022-12-01,100
+Carousell,Singapore,Retail,2022-12-01,110
+Netlify,USA,Product,2022-12-01,48
+Springbig,USA,Sales,2022-12-01,37
+Polly,USA,Finance,2022-12-02,47
+"Aqua Security",USA,Security,2022-12-05,65
+DataRails,Israel,Finance,2022-12-05,30
+Bridgit,Canada,Construction,2022-12-06,13
+BuzzFeed,USA,Media,2022-12-06,180
+"Chipper Cash",USA,Finance,2022-12-06,50
+Doma,USA,Finance,2022-12-06,515
+"Perimeter 81",Israel,Security,2022-12-06,20
+Stash,USA,Finance,2022-12-06,32
+Houzz,USA,Consumer,2022-12-07,95
+"Integral Ad Science",USA,Marketing,2022-12-07,120
+Lev,USA,"Real Estate",2022-12-07,30
+Lithic,USA,Finance,2022-12-07,27
+Loft,Brazil,"Real Estate",2022-12-07,312
+Motive,USA,Transportation,2022-12-07,237
+Plaid,USA,Finance,2022-12-07,260
+Relativity,USA,Legal,2022-12-07,150
+Voi,Sweden,Transportation,2022-12-07,130
+Airtable,USA,Product,2022-12-08,254
+Armis,USA,Security,2022-12-08,25
+BlackLine,USA,Finance,2022-12-08,95
+Buser,Brazil,Transportation,2022-12-08,160
+CyCognito,USA,Security,2022-12-08,30
+Glints,Singapore,HR,2022-12-08,198
+Otonomo,Israel,Transportation,2022-12-08,80
+TechTarget,USA,Marketing,2022-12-08,60
+Alice,Brazil,Healthcare,2022-12-09,113
+C2FO,USA,Finance,2022-12-09,20
+OneFootball,Germany,Marketing,2022-12-09,62
+Primer,UK,Finance,2022-12-09,85
+Outschool,USA,Education,2022-12-10,43
+Xentral,Germany,Product,2022-12-10,20
+Pluralsight,USA,Education,2022-12-12,400
+Edgio,USA,Infrastructure,2022-12-13,95
+"Komodo Health",USA,Healthcare,2022-12-13,78
+Thumbtack,USA,Consumer,2022-12-13,160
+ChowNow,USA,Food,2022-12-14,40
+Headspace,USA,Healthcare,2022-12-14,50
+BigCommerce,USA,Retail,2022-12-15,180
+Freshworks,USA,Support,2022-12-15,90
+LeafLink,USA,Other,2022-12-15,80
+Workmotion,Germany,HR,2022-12-15,60
+Revelate,Canada,Data,2022-12-16,24
+Tomorrow,Germany,Finance,2022-12-16,30
+Homebot,USA,"Real Estate",2022-12-19,18
+Briza,Canada,Finance,2022-12-20,26
+Chope,Singapore,Food,2022-12-20,65
+TuSimple,USA,Transportation,2022-12-21,350
+"Back Market",France,Retail,2022-12-23,93
+Micron,USA,Hardware,2023-01-01,4800
+Uniphore,USA,Support,2023-01-03,76
+Amazon,USA,Retail,2023-01-04,8000
+Astronomer,USA,Data,2023-01-04,76
+Augury,USA,Manufacturing,2023-01-04,20
+Kaltura,USA,Media,2023-01-04,75
+"SaleSan Francisco Bay Areaorce",USA,Sales,2023-01-04,8000
+Everlane,USA,Retail,2023-01-05,30
+Moglix,Singapore,Retail,2023-01-05,40
+"Pecan AI",Israel,Data,2023-01-05,30
+Personetics,USA,Support,2023-01-05,30
+Socure,USA,Finance,2023-01-05,104
+SoundHound,USA,Other,2023-01-05,200
+"Twine Solutions",Israel,Hardware,2023-01-05,30
+UpScalio,India,Retail,2023-01-05,25
+Bounce,India,Transportation,2023-01-06,40
+Huobi,China,Crypto,2023-01-06,275
+"Minute Media",UK,Media,2023-01-08,50
+WalkMe,USA,Other,2023-01-08,43
+Blend,USA,Finance,2023-01-10,340
+Cart.com,USA,Retail,2023-01-10,25
+Coinbase,USA,Crypto,2023-01-10,950
+ConsenSys,USA,Crypto,2023-01-10,100
+ForeScout,Israel,Security,2023-01-10,100
+GoBolt,Canada,Logistics,2023-01-10,55
+Parler,USA,Consumer,2023-01-10,60
+StreamElements,Israel,Media,2023-01-10,40
+Thinkific,Canada,Education,2023-01-10,76
+Flexport,USA,Logistics,2023-01-11,640
+Jumio,USA,Security,2023-01-11,100
+Qualtrics,USA,Other,2023-01-11,270
+Tipalti,USA,Finance,2023-01-11,123
+"Akili Labs",USA,Healthcare,2023-01-12,46
+Blockchain.com,UK,Crypto,2023-01-12,110
+Greenlight,USA,Finance,2023-01-12,104
+Lattice,USA,HR,2023-01-12,105
+"Lending Club",USA,Finance,2023-01-12,225
+Pier,Brazil,Finance,2023-01-12,111
+SmartNews,Japan,Media,2023-01-12,120
+BharatAgri,India,Food,2023-01-15,40
+Snappy,USA,Marketing,2023-01-15,100
+ClearCo,Canada,Finance,2023-01-16,50
+ShareChat,India,Consumer,2023-01-16,500
+"American Robotics",USA,Other,2023-01-17,50
+Britishvolt,UK,Transportation,2023-01-17,206
+Exotel,India,Support,2023-01-17,142
+Unico,Brazil,Other,2023-01-17,110
+Unity,USA,Other,2023-01-17,284
+8x8,USA,Support,2023-01-18,155
+Addepar,USA,Finance,2023-01-18,20
+Benevity,Canada,Other,2023-01-18,137
+Clue,Germany,Healthcare,2023-01-18,31
+Hootsuite,Canada,Marketing,2023-01-18,70
+Inspirato,USA,Travel,2023-01-18,109
+Jumpcloud,USA,Security,2023-01-18,100
+Pagaya,USA,Finance,2023-01-18,140
+Sophos,UK,Security,2023-01-18,450
+Starry,USA,Other,2023-01-18,100
+"Teladoc Health",USA,Healthcare,2023-01-18,300
+"CS Disco",USA,Legal,2023-01-19,62
+Hubilo,USA,Other,2023-01-19,115
+Saks.com,USA,Retail,2023-01-19,100
+"Citrine Informatics",USA,Data,2023-01-20,22
+Enjoei,Brazil,Retail,2023-01-20,31
+Google,USA,Consumer,2023-01-20,12000
+MediBuddy,India,Healthcare,2023-01-20,200
+"Vox Media",USA,Media,2023-01-20,130
+Wayfair,USA,Retail,2023-01-20,1750
+Ermetic,USA,Security,2023-01-23,30
+Innovid,USA,Marketing,2023-01-23,40
+Namogoo,Israel,Marketing,2023-01-23,20
+Spotify,Sweden,Media,2023-01-23,600
+"Uber Freight",USA,Logistics,2023-01-23,150
+Bolt,USA,Finance,2023-01-24,50
+Gitpod,Germany,Product,2023-01-24,21
+Innovaccer,USA,Healthcare,2023-01-24,245
+PartnerStack,Canada,Sales,2023-01-24,40
+Vacasa,USA,Travel,2023-01-24,1300
+"Guardant Health",USA,Healthcare,2023-01-25,130
+Luno,UK,Crypto,2023-01-25,330
+SirionLabs,USA,Legal,2023-01-25,130
+"Tier Mobility",Germany,Transportation,2023-01-25,80
+Confluent,USA,Data,2023-01-26,221
+Glisser,UK,Travel,2023-01-26,25
+SAP,Germany,Other,2023-01-26,3000
+#Paid,Canada,Marketing,2023-01-27,19
+DealShare,India,Retail,2023-01-27,100
+Matrixport,Singapore,Crypto,2023-01-27,29
+Shakepay,Canada,Crypto,2023-01-27,21
+Arrival,UK,Transportation,2023-01-30,800
+Chrono24,Germany,Retail,2023-01-30,65
+"Impossible Foods",USA,Food,2023-01-30,140
+AU10TIX,Israel,Security,2023-01-31,19
+HubSpot,USA,Marketing,2023-01-31,500
+PayPal,USA,Finance,2023-01-31,2000
+"Software AG",Germany,Data,2023-01-31,200
+"Tilting Point",USA,Consumer,2023-01-31,60
+Upstart,USA,Finance,2023-01-31,365
+Wish,USA,Retail,2023-01-31,150
+Workday,USA,HR,2023-01-31,525
+Chainalysis,USA,Crypto,2023-02-01,44
+DraftKings,USA,Consumer,2023-02-01,140
+Exterro,USA,Legal,2023-02-01,24
+Splunk,USA,Data,2023-02-01,325
+TheSkimm,USA,Media,2023-02-01,17
+Wheel,USA,Healthcare,2023-02-01,56
+Workato,USA,Other,2023-02-01,90
+Highspot,USA,Sales,2023-02-02,100
+Miro,USA,Other,2023-02-02,119
+Okta,USA,Security,2023-02-02,300
+"Eightfold AI",USA,HR,2023-02-03,90
+"Protocol Labs",USA,Crypto,2023-02-03,89
+Lightico,Israel,Finance,2023-02-05,20
+Loggi,Brazil,Logistics,2023-02-06,300
+"Pocket Aces",India,Media,2023-02-06,50
+eBay,USA,e-commerce,2023-02-07,500
+LearnUpon,Ireland,Education,2023-02-07,27
+Openpay,Australia,Finance,2023-02-07,83
+Salesloft,USA,Sales,2023-02-07,100
+SecureWorks,USA,Security,2023-02-07,212
+Zoom,USA,Other,2023-02-07,1300
+Affirm,USA,Finance,2023-02-08,500
+"Beam Benefits",USA,Healthcare,2023-02-08,31
+Equitybee,USA,Finance,2023-02-08,24
+GoDaddy,USA,Marketing,2023-02-08,530
+Gong,USA,Sales,2023-02-08,80
+Gusto,USA,HR,2023-02-08,126
+Deliveroo,UK,Food,2023-02-09,350
+GitLab,USA,Product,2023-02-09,130
+"MiSan Francisco Bay Areaits Market",USA,Food,2023-02-09,649
+"Olive AI",USA,Healthcare,2023-02-09,215
+Oportun,USA,Finance,2023-02-09,155
+"REE Automotive",Israel,Transportation,2023-02-09,31
+Veriff,Estonia,Security,2023-02-09,66
+Yahoo,USA,Consumer,2023-02-09,1600
+"Titan Medical",Canada,Healthcare,2023-02-10,48
+TripleLift,USA,Marketing,2023-02-10,100
+Moladin,Indonesia,Transportation,2023-02-12,360
+Electric,USA,Other,2023-02-13,141
+iRobot,USA,Consumer,2023-02-13,85
+Twilio,USA,Other,2023-02-13,1500
+Dropp,Germany,Retail,2023-02-14,60
+DigitalOcean,USA,Infrastructure,2023-02-15,200
+Neon,Brazil,Finance,2023-02-15,210
+ServiceTitan,USA,Sales,2023-02-15,221
+Sprinklr,USA,"Software Development",2023-02-15,100
+Wix,Israel,Marketing,2023-02-15,370
+DocuSign,USA,Sales,2023-02-16,680
+"Pico Interactive",USA,Other,2023-02-16,400
+Smartsheet,USA,Other,2023-02-16,85
+"The RealReal",USA,Retail,2023-02-16,230
+"Chipper Cash",USA,Finance,2023-02-17,100
+Micron,USA,Hardware,2023-02-17,2400
+Fireblocks,USA,Crypto,2023-02-20,30
+Kinde,Australia,Other,2023-02-20,8
+MyGate,India,Other,2023-02-20,200
+"Basis Technologies",USA,Marketing,2023-02-21,40
+"Green Labs","South Korea",Food,2023-02-21,350
+Polygon,India,Crypto,2023-02-21,100
+OneFootball,Germany,Marketing,2023-02-23,150
+Ericsson,Sweden,Other,2023-02-24,8500
+Twitter,USA,Consumer,2023-02-25,200
+Amount,USA,Finance,2023-02-27,130
+Cerebral,USA,Healthcare,2023-02-27,285
+Outreach,USA,Sales,2023-02-27,70
+Palantir,USA,Data,2023-02-27,75
+Stytch,USA,Security,2023-02-27,19
+Eventbrite,USA,Consumer,2023-02-28,80
+iFood,Brazil,Food,2023-03-01,355
+PayFit,France,HR,2023-03-01,200
+Sonder,USA,Travel,2023-03-01,100
+Thoughtworks,USA,Other,2023-03-01,500
+Waymo,USA,Transportation,2023-03-01,209
+CNET,USA,Media,2023-03-02,12
+Fittr,India,Fitness,2023-03-02,30
+Zscaler,USA,Security,2023-03-02,177
+"Embark Trucks",USA,Transportation,2023-03-03,230
+Loft,Brazil,"Real Estate",2023-03-03,340
+Atlassian,Australia,Other,2023-03-06,500
+SiriusXM,USA,Media,2023-03-06,475
+"Pristyn Care",India,Healthcare,2023-03-07,300
+Zwift,USA,Fitness,2023-03-07,80
+Wattpad,Canada,Media,2023-03-08,42
+Gopuff,USA,Food,2023-03-09,100
+Xero,"New Zealand",Finance,2023-03-09,800
+"Anchorage Digital",USA,Crypto,2023-03-14,75
+Avidbots,Canada,Hardware,2023-03-14,50
+Fetch,USA,Retail,2023-03-14,100
+Kaleidoscope,USA,Finance,2023-03-14,15
+Meta,USA,Consumer,2023-03-14,10000
+Boxed,USA,Retail,2023-03-15,32
+Dukaan,India,Retail,2023-03-15,56
+TradeWindow,"New Zealand",Finance,2023-03-15,25
+"Course Hero",USA,Education,2023-03-16,42
+Freshworks,USA,Support,2023-03-16,114
+Leafly,USA,Retail,2023-03-16,40
+Livspace,India,Retail,2023-03-17,100
+Symend,Canada,Other,2023-03-17,50
+Amazon,USA,Retail,2023-03-20,9000
+FreshBooks,Canada,Finance,2023-03-21,80
+Smallcase,India,Finance,2023-03-21,15
+Workhuman,Ireland,HR,2023-03-21,130
+Glassdoor,USA,HR,2023-03-22,140
+Indeed,USA,HR,2023-03-22,2200
+Wejo,UK,Transportation,2023-03-22,40
+Slite,France,Other,2023-03-23,10
+AEye,USA,Transportation,2023-03-28,46
+"Lucid Motors",USA,Transportation,2023-03-28,1300
+"Electronic Arts",USA,Consumer,2023-03-29,780
+iCAD,USA,Healthcare,2023-03-29,23
+Crossbeam,USA,Sales,2023-03-30,17
+FanClash,India,Consumer,2023-03-30,100
+Loop,USA,Finance,2023-03-30,19
+Roku,USA,Media,2023-03-30,200
+Domestika,Spain,Education,2023-03-31,89
+Guideline,USA,Finance,2023-04-03,48
+Textio,USA,HR,2023-04-03,15
+View,USA,Other,2023-04-03,170
+Boost,USA,Finance,2023-04-04,15
+Amplitude,USA,Data,2023-04-05,99
+Dunzo,India,Food,2023-04-05,300
+Talent.com,Canada,HR,2023-04-05,86
+"Pear Therapeutics",USA,Healthcare,2023-04-07,170
+ZestMoney,India,Finance,2023-04-07,100
+Simpl,India,Finance,2023-04-09,150
+"Flock Freight",USA,Logistics,2023-04-10,45
+Nori,USA,Energy,2023-04-10,10
+Examedi,Chile,Healthcare,2023-04-11,45
+Milkrun,Australia,Food,2023-04-11,400
+Permutive,UK,Marketing,2023-04-11,80
+Redfin,USA,"Real Estate",2023-04-11,201
+Viasat,USA,Other,2023-04-12,300
+Astronomer,USA,Data,2023-04-13,100
+"Community Gaming",USA,Crypto,2023-04-14,17
+"Drip Capital",USA,Finance,2023-04-14,75
+Clearcover,USA,Finance,2023-04-17,81
+Paper,Canada,Education,2023-04-17,81
+Ynsect,France,Food,2023-04-17,17
+"Culture Amp",Australia,HR,2023-04-18,90
+Opendoor,USA,"Real Estate",2023-04-18,560
+"TRM Labs",USA,Crypto,2023-04-18,16
+WalkMe,USA,Other,2023-04-19,112
+BuzzFeed,USA,Media,2023-04-20,180
+Gloat,USA,HR,2023-04-20,35
+Koo,India,Consumer,2023-04-20,78
+Benchling,USA,Other,2023-04-21,74
+Lyft,USA,Transportation,2023-04-21,1072
+BigPanda,USA,Infrastructure,2023-04-24,40
+Flink,Germany,Food,2023-04-24,8000
+Rapid,USA,Finance,2023-04-25,185
+Teampay,USA,Finance,2023-04-26,30
+Airtasker,Australia,Retail,2023-04-27,45
+Alteryx,USA,Data,2023-04-27,320
+Chief,USA,Other,2023-04-27,43
+Dropbox,USA,Other,2023-04-27,500
+Greenhouse,USA,HR,2023-04-27,100
+Megaport,Australia,Infrastructure,2023-04-27,50
+Tickertape,India,Finance,2023-04-27,29
+Vroom,USA,Transportation,2023-04-27,120
+"Cue Health",USA,Healthcare,2023-04-28,326
+N26,Germany,Finance,2023-04-28,71
+"Bishop Fox",USA,Security,2023-05-02,50
+Zoomo,Australia,Transportation,2023-05-02,27
+Brightcove,USA,Marketing,2023-05-03,70
+Healthy.io,Israel,Healthcare,2023-05-03,70
+TheSkimm,USA,Media,2023-05-03,22
+Unity,USA,Other,2023-05-03,600
+Upwork,USA,Other,2023-05-03,137
+Autograph,USA,Crypto,2023-05-04,30
+Earnix,Israel,Finance,2023-05-04,30
+Karma,Israel,Retail,2023-05-04,20
+Shopify,Canada,Retail,2023-05-04,2300
+Meesho,India,Retail,2023-05-05,251
+"Twist Bioscience",USA,Healthcare,2023-05-05,270
+LinkedIn,USA,HR,2023-05-08,716
+Akamai,USA,Security,2023-05-09,290
+AudioCodes,Israel,Other,2023-05-09,80
+Sonatype,USA,Security,2023-05-09,100
+Redbubble,Australia,Retail,2023-05-10,70
+Similarweb,USA,Other,2023-05-10,60
+"Stack Overflow",USA,HR,2023-05-10,58
+Cornershop,Chile,Food,2023-05-11,250
+Happay,India,Finance,2023-05-12,160
+Nuro,USA,Transportation,2023-05-12,340
+Lemonade,USA,Finance,2023-05-16,45
+Zepz,UK,Finance,2023-05-16,420
+Stash,USA,Finance,2023-05-17,40
+"Pie Insurance",USA,Finance,2023-05-18,63
+Flink,Germany,Food,2023-05-24,100
+Guild,USA,Education,2023-05-24,172
+"Western Digital",Israel,Hardware,2023-05-24,60
+Airmeet,India,Marketing,2023-05-25,75
+Project44,USA,Logistics,2023-05-26,130
+Evolve,USA,Travel,2023-05-29,164
+Taxfix,Germany,Finance,2023-05-30,120
+Away,USA,Retail,2023-05-31,22
+Mux,USA,Infrastructure,2023-05-31,40
+Vendr,USA,Other,2023-05-31,100
+Zendesk,USA,Support,2023-05-31,320
+ZipRecruiter,USA,HR,2023-05-31,270
+Outbrain,USA,Marketing,2023-06-01,90
+ZoomInfo,Canada,Sales,2023-06-02,120
+Spotify,Sweden,Media,2023-06-05,200
+Dragos,USA,Security,2023-06-06,50
+Edgio,USA,Infrastructure,2023-06-06,134
+Linktree,Australia,Consumer,2023-06-06,60
+Reddit,USA,Consumer,2023-06-06,90
+"Cityblock Health",USA,Healthcare,2023-06-08,155
+Highspot,USA,Sales,2023-06-08,140
+23andMe,USA,Healthcare,2023-06-09,75
+Expel,USA,Security,2023-06-09,60
+Trybe,Brazil,Education,2023-06-09,128
+TaxBit,USA,Crypto,2023-06-11,80
+Chegg,USA,Education,2023-06-12,80
+GoCardless,UK,Finance,2023-06-12,150
+Grubhub,USA,Food,2023-06-12,400
+Pendo,USA,Product,2023-06-12,100
+Bitwise,USA,Crypto,2023-06-14,900
+Olo,USA,Food,2023-06-14,81
+Sonos,USA,Consumer,2023-06-14,130
+TrueCar,USA,Transportation,2023-06-14,102
+CareRev,USA,Healthcare,2023-06-15,100
+FrontRow,India,Education,2023-06-15,39
+Pilot,USA,Finance,2023-06-16,45
+Mojocare,India,Healthcare,2023-06-17,170
+Chingari,India,Media,2023-06-19,48
+Grab,Singapore,Transportation,2023-06-20,1000
+Ritual,Canada,Food,2023-06-21,38
+Uber,USA,Transportation,2023-06-21,200
+Convoy,USA,Logistics,2023-06-26,30
+Robinhood,USA,Finance,2023-06-26,150
+"New Relic",USA,Infrastructure,2023-06-27,255
+ClickUp,USA,Other,2023-06-28,90
+Plex,USA,Media,2023-06-28,37
+Artsy,USA,Retail,2023-06-29,35
+Headspace,USA,Healthcare,2023-06-29,181
+Torii,Israel,Other,2023-06-29,28
+Zip,Australia,Finance,2023-07-02,300
+Highsnobiety,Germany,Media,2023-07-03,24
+"Perfect Day",USA,Food,2023-07-06,134
+TytoCare,USA,Healthcare,2023-07-06,20
+FrontRow,India,Education,2023-07-10,4
+Matterport,USA,Data,2023-07-11,170
+Sisense,USA,Data,2023-07-11,100
+WayCool,India,Food,2023-07-11,300
+DeepVerge,Ireland,Healthcare,2023-07-12,50
+Freightos,USA,Logistics,2023-07-12,50
+AudioCodes,Israel,Other,2023-07-13,80
+Deepwatch,USA,Security,2023-07-13,30
+PayScale,USA,HR,2023-07-14,14
+Sarcos,USA,Aerospace,2023-07-17,75
+AgentSync,USA,Finance,2023-07-19,67
+Inspirato,USA,Travel,2023-07-19,50
+Tilia,USA,Finance,2023-07-19,28
+"Deep Instict",USA,Security,2023-07-25,46
+Calendly,USA,Other,2023-07-26,60
+Copia,Kenya,Retail,2023-07-26,350
+Figure,USA,Crypto,2023-07-26,90
+Milkbasket,India,Food,2023-07-27,400
+Point,USA,"Real Estate",2023-07-27,61
+Verbit,USA,Data,2023-07-27,60
+Wish,USA,Retail,2023-07-27,255
+Eroad,"New Zealand",Transportation,2023-07-28,200
+"Kape Technologies",UK,Security,2023-07-30,200
+Fable,Canada,Other,2023-07-31,13
+Archipelago,USA,"Real Estate",2023-08-01,40
+Paper,Canada,Education,2023-08-01,106
+Planet,USA,Aerospace,2023-08-01,117
+Vesttoo,Israel,Finance,2023-08-01,150
+Augury,USA,Manufacturing,2023-08-02,70
+BetterUp,USA,HR,2023-08-02,100
+Gupy,Brazil,HR,2023-08-02,58
+Spinny,India,Transportation,2023-08-02,300
+Tekion,India,Other,2023-08-02,300
+"Top Hat",Canada,Education,2023-08-04,42
+23andMe,USA,Healthcare,2023-08-08,71
+Doximity,USA,Healthcare,2023-08-08,100
+Rapid7,USA,Security,2023-08-08,470
+Thoughtworks,USA,Other,2023-08-08,579
+Blend,USA,Finance,2023-08-09,150
+Dealtale,Israel,Sales,2023-08-09,70
+SecureWorks,USA,Security,2023-08-14,300
+AppFolio,USA,"Real Estate",2023-08-17,149
+StreamElements,Israel,Media,2023-08-17,60
+Twiga,Kenya,Food,2023-08-20,283
+Getir,UK,Food,2023-08-22,2500
+Atlas,USA,HR,2023-08-23,150
+BlackLine,USA,Finance,2023-08-23,95
+Veriff,Estonia,Security,2023-08-23,101
+Captiv8,USA,Marketing,2023-08-24,8
+Huma,UK,Healthcare,2023-08-30,45
+"Kenko Health",India,Healthcare,2023-08-30,50
+Omuni,India,Retail,2023-08-30,60
+Zeplin,USA,Product,2023-08-30,37
+Nexar,USA,Transportation,2023-09-04,17
+Absci,USA,Healthcare,2023-09-05,30
+Hodinkee,USA,Retail,2023-09-05,24
+Roku,USA,Media,2023-09-06,360
+Drift,USA,Marketing,2023-09-07,100
+Chargebee,USA,Finance,2023-09-11,100
+Grabango,USA,Food,2023-09-11,34
+At-Bay,USA,Security,2023-09-12,27
+Evolve,USA,Travel,2023-09-12,175
+Homeday,Germany,"Real Estate",2023-09-12,40
+Paper,Canada,Education,2023-09-12,87
+Airtable,USA,Product,2023-09-14,237
+VideoAmp,USA,Marketing,2023-09-14,40
+7shifts,Canada,Food,2023-09-15,30
+"Lucid Software",USA,Other,2023-09-25,75
+Dunzo,India,Food,2023-09-26,150
+Flexe,USA,Logistics,2023-09-26,131
+Fi.Money,India,Finance,2023-09-27,30
+Cowbell,USA,Finance,2023-09-29,28
+Chainalysis,USA,Crypto,2023-10-02,150
+"Chia Network",USA,Crypto,2023-10-02,26
+Synapse,USA,Finance,2023-10-02,86
+Hopper,Canada,Travel,2023-10-04,250
+Qualtrics,USA,Other,2023-10-04,780
+Arrival,UK,Transportation,2023-10-05,200
+SchoolMint,USA,Education,2023-10-05,29
+InvestCloud,USA,Finance,2023-10-06,80
+"Carbon Health",USA,Healthcare,2023-10-09,114
+Deepgram,USA,AI,2023-10-11,20
+"Lending Club",USA,Finance,2023-10-12,172
+MariaDB,USA,Data,2023-10-12,84
+C2FO,USA,Finance,2023-10-16,80
+LinkedIn,USA,HR,2023-10-16,660
+ManoMano,France,Retail,2023-10-18,230
+"WeTranSan Francisco Bay Areaer",Netherlands,Other,2023-10-18,35
+Bullhorn,USA,Sales,2023-10-19,140
+Convoy,USA,Logistics,2023-10-19,500
+StellarAlgo,Canada,Data,2023-10-19,21
+"Nomad Health",USA,Healthcare,2023-10-20,119
+SiFive,USA,Hardware,2023-10-24,130
+"Hippo Insurance",USA,Finance,2023-10-26,120
+Faire,USA,Retail,2023-11-01,250
+"Sana Benefits",USA,HR,2023-11-01,73
+Splunk,USA,Data,2023-11-01,500
+"Beyond Meat",USA,Food,2023-11-02,65
+Viasat,USA,Other,2023-11-02,800
+TripAdvisor,USA,Travel,2023-11-12,125
+"Physics Wallah",India,Education,2023-11-19,120
+"Our Next Energy",USA,Transportation,2023-11-27,128
+Dataminr,USA,AI,2023-11-28,150
+Unity,USA,Other,2023-11-28,265
+Loco,India,Consumer,2023-11-30,40
+Zepz,UK,Finance,2023-11-30,30
+Spotify,Sweden,Media,2023-12-04,1500
+Incredibuild,Israel,Product,2023-12-05,40
+ZestMoney,India,Finance,2023-12-05,150
+Zulily,USA,Retail,2023-12-08,839
+"Chipper Cash",USA,Finance,2023-12-11,15
+Etsy,USA,Retail,2023-12-13,450
+Bolt,USA,Finance,2023-12-14,130
+Cruise,USA,Transportation,2023-12-14,900
+"Enphase Energy",USA,Energy,2023-12-18,350
+InSightec,Israel,Healthcare,2023-12-19,100
+InSightec,USA,Healthcare,2023-12-19,100
+ShareChat,India,Consumer,2023-12-20,200
+Frontdesk,USA,Travel,2024-01-02,200
+"Lazada Group",Singapore,Retail,2024-01-03,100
+"Orca Security",Israel,Security,2024-01-03,60
+Xerox,USA,Hardware,2024-01-03,3000
+Trigo,Israel,Retail,2024-01-04,30
+"Cue Health",USA,Healthcare,2024-01-05,94
+"NanoString Technology",USA,Healthcare,2024-01-06,50
+BenchSci,Canada,Healthcare,2024-01-08,70
+Flexe,USA,Logistics,2024-01-08,99
+Flipkart,India,Retail,2024-01-08,1100
+"NuScale Power",USA,Energy,2024-01-08,154
+Pitch,Germany,Other,2024-01-08,80
+Unity,USA,Other,2024-01-08,1800
+FullStory,USA,Marketing,2024-01-09,50
+Humane,USA,Hardware,2024-01-09,10
+Nevro,USA,Healthcare,2024-01-09,63
+"Rent the Runway",USA,Retail,2024-01-09,37
+"Treasure Financial",USA,Finance,2024-01-09,14
+Twitch,USA,Consumer,2024-01-09,500
+Citrix,USA,Infrastructure,2024-01-10,1000
+FreshDirect,USA,Food,2024-01-10,100
+7Shifts,Canada,Food,2024-01-11,68
+Audible,USA,Media,2024-01-11,100
+Discord,USA,Consumer,2024-01-11,170
+Inmobi,India,Marketing,2024-01-11,125
+Sisense,USA,Data,2024-01-11,60
+"First Mode",USA,Transportation,2024-01-16,48
+SonderMind,USA,Healthcare,2024-01-16,49
+Wayfair,USA,Retail,2024-01-19,1650
+SolarEdge,Israel,Energy,2024-01-21,900
+"Riot Gaming",USA,Consumer,2024-01-22,530
+Brex,USA,Finance,2024-01-23,282
+eBay,USA,e-commerce,2024-01-23,1000
+SAP,Germany,Other,2024-01-23,8000
+Vroom,USA,Transportation,2024-01-23,800
+Storytel,Sweden,Media,2024-01-24,80
+MVPindex,USA,Marketing,2024-01-25,12
+Swiggy,India,Food,2024-01-25,400
+Veho,USA,Logistics,2024-01-25,65
+Salesforce,USA,Sales,2024-01-26,700
+iRobot,USA,Consumer,2024-01-29,350
+"Aurora Solar",USA,Energy,2024-01-30,111
+Block,USA,Finance,2024-01-30,1000
+Kiwi.com,"Czech Republic",Travel,2024-01-30,216
+PayPal,USA,Finance,2024-01-30,2500
+Wattpad,Canada,Media,2024-01-30,20
+Innoviz,Israel,Transportation,2024-01-31,60
+Proofpoint,USA,Security,2024-01-31,280
+Okta,USA,Security,2024-02-01,400
+Polygon,"Cayman Islands",Crypto,2024-02-01,60
+Zoom,USA,Other,2024-02-01,150
+"Cue Health",USA,Healthcare,2024-02-02,245
+"Top Hat",Canada,Education,2024-02-02,35
+Drizly,USA,Retail,2024-02-05,168
+Impact.com,USA,Sales,2024-02-05,40
+Snap,USA,Consumer,2024-02-05,500
+DocuSign,USA,Sales,2024-02-06,440
+Fireblocks,USA,Crypto,2024-02-07,20
+Otovo,Norway,Energy,2024-02-08,65
+BlissClub,India,Retail,2024-02-09,21
+Licious,India,Food,2024-02-09,80
+SiriusXM,USA,Media,2024-02-12,160
+Impinj,USA,Other,2024-02-13,50
+Instacart,USA,Food,2024-02-13,250
+Mozilla,USA,Consumer,2024-02-13,60
+Riskified,USA,Retail,2024-02-13,40
+Cisco,USA,Infrastructure,2024-02-14,4250
+"Wint Wealth",India,Finance,2024-02-14,19
+"Gro Intelligence",USA,Food,2024-02-15,20
+Sonder,USA,Travel,2024-02-15,106
+Storytel,Sweden,Consumer,2024-02-15,80
+Toast,USA,Food,2024-02-15,550
+Farfetch,UK,Retail,2024-02-16,2000
+Voi,Sweden,Transportation,2024-02-16,120
+Tails.com,UK,Retail,2024-02-20,55
+Finder,Australia,Retail,2024-02-21,60
+Expedia,USA,Travel,2024-02-26,1500
+Bumble,USA,Consumer,2024-02-27,350
+"Electronic Arts",USA,Consumer,2024-02-28,670
+"Treasury Prime",USA,Finance,2024-02-28,40
+Vacasa,USA,Travel,2024-02-28,320
+"Gro Intelligence",USA,Food,2024-03-01,90
+"Pristyn Care",India,Healthcare,2024-03-01,120
+Edgio,USA,Infrastructure,2024-03-04,80
+Melio,USA,Finance,2024-03-04,40
+"Our Next Energy",USA,Transportation,2024-03-04,40
+MessageBird,Netherlands,Other,2024-03-05,90
+Sorare,USA,Crypto,2024-03-06,22
+Niche,USA,Education,2024-03-08,24
+"Phantom Auto",USA,Transportation,2024-03-12,100
+Stash,USA,Finance,2024-03-13,80
+Textio,USA,HR,2024-03-14,14
+ShopBack,Singapore,Retail,2024-03-19,195
+Synctera,USA,Finance,2024-03-26,17
+ChowNow,USA,Food,2024-03-28,60
+Identiq,Israel,Security,2024-04-01,20
+"Lightspeed Commerce",Canada,Retail,2024-04-03,280
+"Ghost Autonomy",USA,Transportation,2024-04-05,100
+"Singularity 6",USA,Gaming,2024-04-08,49
+Fabric,USA,Logistics,2024-04-11,30
+Criteo,France,Marketing,2024-04-12,140
+Take-Two,USA,"Entertainment Providers",2024-04-16,600
+Tome,USA,AI,2024-04-16,24
+Toshiba,Japan,Appliances,2024-04-17,5000
+Showpad,Belgium,Marketing,2024-04-18,50
+"Stability AI",UK,AI,2024-04-18,20
+"The Good Glamour",India,Retail,2024-04-18,150
+OutSystems,USA,Product,2024-04-19,150
+"True Anomaly",USA,Aerospace,2024-04-26,30
+HealthifyMe,India,Healthcare,2024-04-27,150
+"Ninja Van",Singapore,Transportation,2024-04-29,21
+Ola,India,Transportation,2024-04-29,180
+RiseUp,UK,Fintech,2024-04-30,50
+Peloton,USA,Fitness,2024-05-02,400
+Sprinklr,USA,"Software Development",2024-05-03,116
+"Cue Health",USA,Healthcare,2024-05-04,230
+Luminar,USA,Transportation,2024-05-04,147
+Enovix,USA,Energy,2024-05-06,170
+Simpl,India,Finance,2024-05-08,100
+"Sight Diagnostics",Israel,Healthcare,2024-05-09,40
+Indeed,USA,HR,2024-05-13,1000
+Replit,USA,"Software Development",2024-05-16,30
+Guild,USA,Education,2024-05-22,300
+"Cue Health",USA,Healthcare,2024-05-23,180
+"Lucid Motors",USA,Transportation,2024-05-24,400
+Satellogic,Uruquay,Aerospace,2024-05-24,34
+Foursquare,USA,Marketing,2024-05-27,105
+Walnut,Israel,Sales,2024-05-29,15
+MoonPay,USA,Crypto,2024-06-05,30
+Pagaya,Israel,Finance,2024-06-05,100
+Paxos,USA,Finance,2024-06-12,65
+Care/of,USA,Healthcare,2024-06-15,143
+Moovit,Israel,Transportation,2024-06-16,23
+Loop,USA,Insurance,2024-06-17,23
+Satellogic,Uruquay,Aerospace,2024-06-17,70
+Chegg,USA,Education,2024-06-18,441
+Rapyd,Israel,Finance,2024-06-18,30
+Wex,USA,Finance,2024-06-18,375
+Intel,USA,Semiconductors,2024-06-19,22
+Flutterwave,USA,Finance,2024-06-24,30
+"Ginkgo Bioworks",USA,Healthcare,2024-06-24,400
+Perion,Israel,Marketing,2024-06-26,35
+Planet,USA,Aerospace,2024-06-26,180
+RealPage,USA,"Real Estate",2024-06-27,20
+Priceline,USA,Travel,2024-06-28,103

@@ -1,0 +1,1897 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='TechLayoffs_2020-2024' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Top_10_Affected_Industries_by_Year (2)' inline='true' name='federated.1t3ba0v1o41uhi1b8v0v208ss9dd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Top_10_Affected_Industries_by_Year' name='textscan.0v8zijb0qbvv4s14k52si1s4xyqy'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Top_10_Affected_Industries_by_Year.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0v8zijb0qbvv4s14k52si1s4xyqy' name='Top_10_Affected_Industries_by_Year.csv' table='[Top_10_Affected_Industries_by_Year#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Industry' ordinal='0' />
+            <column datatype='integer' name='Years' ordinal='1' />
+            <column datatype='integer' name='Total_Laid_off' ordinal='2' />
+            <column datatype='integer' name='Ranking' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Top_10_Affected_Industries_by_Year.csv_A00087658D63490FAA8939A55258E6E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Years</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Top_10_Affected_Industries_by_Year.csv_A00087658D63490FAA8939A55258E6E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Laid_off</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Laid_off]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Total_Laid_off</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Top_10_Affected_Industries_by_Year.csv_A00087658D63490FAA8939A55258E6E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Top_10_Affected_Industries_by_Year.csv_A00087658D63490FAA8939A55258E6E7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+      <column caption='Top_10_Affected_Industries_by_Year.csv' datatype='table' name='[__tableau_internal_object_id__].[Top_10_Affected_Industries_by_Year.csv_A00087658D63490FAA8939A55258E6E7]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/abhir/AppData/Local/Temp/TableauTemp/#TableauTemp_1o87b78036onqd1exb3ay1wlprj6.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Industry</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Laid_off</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Laid_off]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Laid_off</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ranking</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ranking]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ranking</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Top_10_Affected_Industries_by_Year.csv' id='Top_10_Affected_Industries_by_Year.csv_A00087658D63490FAA8939A55258E6E7'>
+            <properties context=''>
+              <relation connection='textscan.0v8zijb0qbvv4s14k52si1s4xyqy' name='Top_10_Affected_Industries_by_Year.csv' table='[Top_10_Affected_Industries_by_Year#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Industry' ordinal='0' />
+                  <column datatype='integer' name='Years' ordinal='1' />
+                  <column datatype='integer' name='Total_Laid_off' ordinal='2' />
+                  <column datatype='integer' name='Ranking' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Top_10_Affected_Industries_by_Year (3)' inline='true' name='federated.0xjz34s0kcckie13xbnv50ezsa5v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Top_10_Affected_Industries_by_Year' name='textscan.0k0h7xe13jodh91ahl7km1kb7dlw'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Top_10_Affected_Industries_by_Year.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0k0h7xe13jodh91ahl7km1kb7dlw' name='Top_10_Affected_Industries_by_Year.csv' table='[Top_10_Affected_Industries_by_Year#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Industry' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='Years' ordinal='1' />
+            <column datatype='integer' name='Total_Laid_off' ordinal='2' />
+            <column datatype='integer' name='Ranking' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Years]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Years</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Laid_off</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Laid_off]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Total_Laid_off</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking]</local-name>
+            <parent-name>[Top_10_Affected_Industries_by_Year.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+      <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+      <column caption='Top_10_Affected_Industries_by_Year.csv' datatype='table' name='[__tableau_internal_object_id__].[Top_10_Affected_Industries_by_Year.csv_DA175136797D487CAFF83068D6FE59E7]' role='measure' type='quantitative' />
+      <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/abhir/AppData/Local/Temp/TableauTemp/#TableauTemp_13yo1kw17q0ko316rr69215bxd5z.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Industry</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Laid_off</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Laid_off]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Laid_off</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ranking</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ranking]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ranking</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Top_10_Affected_Industries_by_Year.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Industry:nk]' palette='blue_teal_10_0' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;Consumer&quot;</bucket>
+            </map>
+            <map to='#2d608a'>
+              <bucket>&quot;Retail&quot;</bucket>
+            </map>
+            <map to='#2f6790'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#316f96'>
+              <bucket>&quot;Transportation&quot;</bucket>
+            </map>
+            <map to='#32779b'>
+              <bucket>&quot;Finance&quot;</bucket>
+            </map>
+            <map to='#347ea1'>
+              <bucket>&quot;Food&quot;</bucket>
+            </map>
+            <map to='#3586a7'>
+              <bucket>&quot;Healthcare&quot;</bucket>
+            </map>
+            <map to='#358ead'>
+              <bucket>&quot;Real Estate&quot;</bucket>
+            </map>
+            <map to='#3b96b2'>
+              <bucket>&quot;Hardware&quot;</bucket>
+            </map>
+            <map to='#419eb6'>
+              <bucket>&quot;Infrastructure&quot;</bucket>
+            </map>
+            <map to='#4ba5ba'>
+              <bucket>&quot;Sales&quot;</bucket>
+            </map>
+            <map to='#59acbe'>
+              <bucket>&quot;HR&quot;</bucket>
+            </map>
+            <map to='#66b3c2'>
+              <bucket>&quot;Fitness&quot;</bucket>
+            </map>
+            <map to='#72bac6'>
+              <bucket>&quot;Travel&quot;</bucket>
+            </map>
+            <map to='#7ec1ca'>
+              <bucket>&quot;Crypto&quot;</bucket>
+            </map>
+            <map to='#89c8cc'>
+              <bucket>&quot;Appliances&quot;</bucket>
+            </map>
+            <map to='#95cecf'>
+              <bucket>&quot;Construction&quot;</bucket>
+            </map>
+            <map to='#a1d5d2'>
+              <bucket>&quot;Marketing&quot;</bucket>
+            </map>
+            <map to='#aedcd5'>
+              <bucket>&quot;Education&quot;</bucket>
+            </map>
+            <map to='#bce4d8'>
+              <bucket>&quot;Data&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Top_10_Affected_Industries_by_Year.csv' id='Top_10_Affected_Industries_by_Year.csv_DA175136797D487CAFF83068D6FE59E7'>
+            <properties context=''>
+              <relation connection='textscan.0k0h7xe13jodh91ahl7km1kb7dlw' name='Top_10_Affected_Industries_by_Year.csv' table='[Top_10_Affected_Industries_by_Year#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Industry' ordinal='0' />
+                  <column datatype='date' date-parse-format='yyyy' name='Years' ordinal='1' />
+                  <column datatype='integer' name='Total_Laid_off' ordinal='2' />
+                  <column datatype='integer' name='Ranking' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Top_10_Affected_Industries_by_Year' inline='true' name='federated.1jg913c0zldkuj12y6k631o7dc77' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Top_10_Affected_Industries_by_Year' name='textscan.05gvmwq08x90vp13mqdnn17izq8d'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Top_10_Affected_Industries_by_Year.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Layoffs_Across_the_Globe_Country-wise' name='textscan.0qsws1f1rwf68k1e9b9cf1gfxccp'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Layoffs_Across_the_Globe_Country-wise.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Layoffs_Across_the_Globe_Country-wise (2)' name='textscan.1u1bkk51rr6y6n11op3rv0mujxoo'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Layoffs_Across_the_Globe_Country-wise.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly)' name='textscan.0tbv01703gd0ud10glk951g7cz51'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0qsws1f1rwf68k1e9b9cf1gfxccp' name='Layoffs_Across_the_Globe_Country-wise.csv' table='[Layoffs_Across_the_Globe_Country-wise#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='Years' ordinal='1' />
+            <column datatype='integer' name='Total_Laid_off' ordinal='2' />
+            <column datatype='integer' name='Ranking' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Layoffs_Across_the_Globe_Country-wise.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Layoffs_Across_the_Globe_Country-wise.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Layoffs_Across_the_Globe_Country-wise.csv_26633FBF22494F948159BD3942A3495B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Years]</local-name>
+            <parent-name>[Layoffs_Across_the_Globe_Country-wise.csv]</parent-name>
+            <remote-alias>Years</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Layoffs_Across_the_Globe_Country-wise.csv_26633FBF22494F948159BD3942A3495B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Laid_off</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Laid_off]</local-name>
+            <parent-name>[Layoffs_Across_the_Globe_Country-wise.csv]</parent-name>
+            <remote-alias>Total_Laid_off</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Layoffs_Across_the_Globe_Country-wise.csv_26633FBF22494F948159BD3942A3495B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking]</local-name>
+            <parent-name>[Layoffs_Across_the_Globe_Country-wise.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Layoffs_Across_the_Globe_Country-wise.csv_26633FBF22494F948159BD3942A3495B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;United Arabian Emirates&quot;' value='&quot;United Arab Emirates&quot;' />
+          <semantic-value key='&quot;Uruquay&quot;' value='&quot;Uruguay&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+      <column caption='Layoffs_Across_the_Globe_Country-wise.csv' datatype='table' name='[__tableau_internal_object_id__].[Layoffs_Across_the_Globe_Country-wise.csv_26633FBF22494F948159BD3942A3495B]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/abhir/AppData/Local/Temp/TableauTemp/#TableauTemp_05b2oy80zc4m2h1awf78801017gj.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Layoffs_Across_the_Globe_Country-wise.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Layoffs_Across_the_Globe_Country-wise.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Laid_off</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Laid_off]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Laid_off</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Layoffs_Across_the_Globe_Country-wise.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>84</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ranking</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ranking]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ranking</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Layoffs_Across_the_Globe_Country-wise.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Layoffs_Across_the_Globe_Country-wise.csv' id='Layoffs_Across_the_Globe_Country-wise.csv_26633FBF22494F948159BD3942A3495B'>
+            <properties context=''>
+              <relation connection='textscan.0qsws1f1rwf68k1e9b9cf1gfxccp' name='Layoffs_Across_the_Globe_Country-wise.csv' table='[Layoffs_Across_the_Globe_Country-wise#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='date' date-parse-format='yyyy' name='Years' ordinal='1' />
+                  <column datatype='integer' name='Total_Laid_off' ordinal='2' />
+                  <column datatype='integer' name='Ranking' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly)' inline='true' name='federated.11mfed60lps7lk1972o8o07446mw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly)' name='textscan.03921ey1rpmrhu1gce8o91m8w0fv'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.03921ey1rpmrhu1gce8o91m8w0fv' name='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv' table='[Companies_with_the_Most_Layoffs_(Top 10 Yearly)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='integer' name='Total_Laid_Off' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='Years' ordinal='2' />
+            <column datatype='string' name='Stage' ordinal='3' />
+            <column datatype='integer' name='Ranking' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Laid_Off</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Laid_Off]</local-name>
+            <parent-name>[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv]</parent-name>
+            <remote-alias>Total_Laid_Off</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Years]</local-name>
+            <parent-name>[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv]</parent-name>
+            <remote-alias>Years</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Stage]</local-name>
+            <parent-name>[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv]</parent-name>
+            <remote-alias>Stage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking]</local-name>
+            <parent-name>[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+      <column caption='Total Laid Off' datatype='integer' name='[Total_Laid_Off]' role='measure' type='quantitative' />
+      <column caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv' datatype='table' name='[__tableau_internal_object_id__].[Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv_2C086A95255648EF860F9AB839CDE022]' role='measure' type='quantitative' />
+      <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/abhir/AppData/Local/Temp/TableauTemp/#TableauTemp_0lneexi020cob8195tyj90fncmss.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Laid_Off</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Laid_Off]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Laid_Off</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Stage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stage</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ranking</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ranking]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ranking</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Company:nk]' palette='blue_teal_10_0' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;Hubba&quot;</bucket>
+            </map>
+            <map to='#2c5c87'>
+              <bucket>&quot;BitTitan&quot;</bucket>
+            </map>
+            <map to='#2d5f8a'>
+              <bucket>&quot;Quandoo&quot;</bucket>
+            </map>
+            <map to='#2e628c'>
+              <bucket>&quot;New Relic&quot;</bucket>
+            </map>
+            <map to='#2e658f'>
+              <bucket>&quot;Postmates&quot;</bucket>
+            </map>
+            <map to='#2f6891'>
+              <bucket>&quot;Bounce&quot;</bucket>
+            </map>
+            <map to='#306b94'>
+              <bucket>&quot;Dropbox&quot;</bucket>
+            </map>
+            <map to='#316f96'>
+              <bucket>&quot;TripAdvisor&quot;</bucket>
+            </map>
+            <map to='#317298'>
+              <bucket>&quot;LinkedIn&quot;</bucket>
+            </map>
+            <map to='#32769b'>
+              <bucket>&quot;Lyft&quot;</bucket>
+            </map>
+            <map to='#33799d'>
+              <bucket>&quot;Yelp&quot;</bucket>
+            </map>
+            <map to='#347da0'>
+              <bucket>&quot;Flipkart&quot;</bucket>
+            </map>
+            <map to='#3480a2'>
+              <bucket>&quot;Toast&quot;</bucket>
+            </map>
+            <map to='#3483a5'>
+              <bucket>&quot;Redfin&quot;</bucket>
+            </map>
+            <map to='#3586a7'>
+              <bucket>&quot;Ola&quot;</bucket>
+            </map>
+            <map to='#358aaa'>
+              <bucket>&quot;Unacademy&quot;</bucket>
+            </map>
+            <map to='#358dac'>
+              <bucket>&quot;PaisaBazaar&quot;</bucket>
+            </map>
+            <map to='#3790af'>
+              <bucket>&quot;Expedia&quot;</bucket>
+            </map>
+            <map to='#3a94b1'>
+              <bucket>&quot;Wayfair&quot;</bucket>
+            </map>
+            <map to='#3c97b3'>
+              <bucket>&quot;Unity&quot;</bucket>
+            </map>
+            <map to='#3f9bb5'>
+              <bucket>&quot;Airbnb&quot;</bucket>
+            </map>
+            <map to='#429eb7'>
+              <bucket>&quot;Zillow&quot;</bucket>
+            </map>
+            <map to='#45a2b9'>
+              <bucket>&quot;Farfetch&quot;</bucket>
+            </map>
+            <map to='#4aa5ba'>
+              <bucket>&quot;Swiggy&quot;</bucket>
+            </map>
+            <map to='#50a8bc'>
+              <bucket>&quot;Crypto.com&quot;</bucket>
+            </map>
+            <map to='#56abbd'>
+              <bucket>&quot;Spotify&quot;</bucket>
+            </map>
+            <map to='#5caebf'>
+              <bucket>&quot;Gopuff&quot;</bucket>
+            </map>
+            <map to='#62b1c1'>
+              <bucket>&quot;Katerra&quot;</bucket>
+            </map>
+            <map to='#67b4c2'>
+              <bucket>&quot;PayPal&quot;</bucket>
+            </map>
+            <map to='#6cb7c4'>
+              <bucket>&quot;Getir&quot;</bucket>
+            </map>
+            <map to='#71bac6'>
+              <bucket>&quot;Xerox&quot;</bucket>
+            </map>
+            <map to='#76bdc7'>
+              <bucket>&quot;Twitter&quot;</bucket>
+            </map>
+            <map to='#7bc0c9'>
+              <bucket>&quot;Better.com&quot;</bucket>
+            </map>
+            <map to='#81c3cb'>
+              <bucket>&quot;Peloton&quot;</bucket>
+            </map>
+            <map to='#86c5cc'>
+              <bucket>&quot;Toshiba&quot;</bucket>
+            </map>
+            <map to='#8bc8cd'>
+              <bucket>&quot;Micron&quot;</bucket>
+            </map>
+            <map to='#90cbce'>
+              <bucket>&quot;Uber&quot;</bucket>
+            </map>
+            <map to='#95cecf'>
+              <bucket>&quot;SaleSan Francisco Bay Areaorce&quot;</bucket>
+            </map>
+            <map to='#9ad1d0'>
+              <bucket>&quot;Flink&quot;</bucket>
+            </map>
+            <map to='#9fd4d1'>
+              <bucket>&quot;Cisco&quot;</bucket>
+            </map>
+            <map to='#a5d7d2'>
+              <bucket>&quot;Ericsson&quot;</bucket>
+            </map>
+            <map to='#abdad4'>
+              <bucket>&quot;SAP&quot;</bucket>
+            </map>
+            <map to='#b0ddd5'>
+              <bucket>&quot;Google&quot;</bucket>
+            </map>
+            <map to='#b6e0d6'>
+              <bucket>&quot;Meta&quot;</bucket>
+            </map>
+            <map to='#bce4d8'>
+              <bucket>&quot;Amazon&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv' id='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv_2C086A95255648EF860F9AB839CDE022'>
+            <properties context=''>
+              <relation connection='textscan.03921ey1rpmrhu1gce8o91m8w0fv' name='Companies_with_the_Most_Layoffs_(Top 10 Yearly).csv' table='[Companies_with_the_Most_Layoffs_(Top 10 Yearly)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Company' ordinal='0' />
+                  <column datatype='integer' name='Total_Laid_Off' ordinal='1' />
+                  <column datatype='date' date-parse-format='yyyy' name='Years' ordinal='2' />
+                  <column datatype='string' name='Stage' ordinal='3' />
+                  <column datatype='integer' name='Ranking' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Layoff_Trends _Over _Time _(2020-2024)' inline='true' name='federated.0jzwk021294lp2190gim4123ub01' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Layoff_Trends _Over _Time _(2020-2024)' name='textscan.17m8qaz1c83ili19y12a20q11x6p'>
+            <connection class='textscan' directory='C:/Users/abhir/Desktop/BA_DA_Repo/Tech_Layoffs_(2020-2024)' filename='Layoff_Trends _Over _Time _(2020-2024).csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.17m8qaz1c83ili19y12a20q11x6p' name='Layoff_Trends _Over _Time _(2020-2024).csv' table='[Layoff_Trends _Over _Time _(2020-2024)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='string' name='Industry' ordinal='2' />
+            <column datatype='date' name='Date' ordinal='3' />
+            <column datatype='integer' name='Total_Laid_off' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Layoff_Trends _Over _Time _(2020-2024).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Layoff_Trends _Over _Time _(2020-2024).csv]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Layoff_Trends _Over _Time _(2020-2024).csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Layoff_Trends _Over _Time _(2020-2024).csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Layoff_Trends _Over _Time _(2020-2024).csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Laid_off</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Laid_off]</local-name>
+            <parent-name>[Layoff_Trends _Over _Time _(2020-2024).csv]</parent-name>
+            <remote-alias>Total_Laid_off</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+      <column caption='Layoff_Trends _Over _Time _(2020-2024).csv' datatype='table' name='[__tableau_internal_object_id__].[Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/abhir/AppData/Local/Temp/TableauTemp/#TableauTemp_1erqeqt1a0qg9t1cxvte90sff58z.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Layoff_Trends _Over _Time _(2020-2024).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1035</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Layoff_Trends _Over _Time _(2020-2024).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Industry</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Layoff_Trends _Over _Time _(2020-2024).csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Layoff_Trends _Over _Time _(2020-2024).csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>532</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Laid_off</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Laid_off]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Laid_off</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Layoff_Trends _Over _Time _(2020-2024).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>265</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Layoff_Trends _Over _Time _(2020-2024).csv' id='Layoff_Trends _Over _Time _(2020-2024).csv_AC0DB0AF9CEF45F7AA668781289F0B21'>
+            <properties context=''>
+              <relation connection='textscan.17m8qaz1c83ili19y12a20q11x6p' name='Layoff_Trends _Over _Time _(2020-2024).csv' table='[Layoff_Trends _Over _Time _(2020-2024)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Company' ordinal='0' />
+                  <column datatype='string' name='Country' ordinal='1' />
+                  <column datatype='string' name='Industry' ordinal='2' />
+                  <column datatype='date' name='Date' ordinal='3' />
+                  <column datatype='integer' name='Total_Laid_off' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.0jzwk021294lp2190gim4123ub01'>
+      <datasources>
+        <datasource caption='Layoff_Trends _Over _Time _(2020-2024)' name='federated.0jzwk021294lp2190gim4123ub01' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]'>
+        <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]'>
+        <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]' />
+      </filter>
+    </shared-view>
+    <shared-view name='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+      <datasources>
+        <datasource caption='Top_10_Affected_Industries_by_Year (3)' name='federated.0xjz34s0kcckie13xbnv50ezsa5v' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+        <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+        <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+        <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+        <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+        <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]'>
+        <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[none:Industry:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]'>
+        <groupfilter function='level-members' level='[yr:Years:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]' />
+      </filter>
+    </shared-view>
+    <shared-view name='federated.11mfed60lps7lk1972o8o07446mw'>
+      <datasources>
+        <datasource caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly)' name='federated.11mfed60lps7lk1972o8o07446mw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+        <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+        <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.11mfed60lps7lk1972o8o07446mw'>
+        <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+        <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]'>
+        <groupfilter function='level-members' level='[yr:Years:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.11mfed60lps7lk1972o8o07446mw].[yr:Years:ok]' />
+      </filter>
+    </shared-view>
+    <shared-view name='federated.1jg913c0zldkuj12y6k631o7dc77'>
+      <datasources>
+        <datasource caption='Top_10_Affected_Industries_by_Year' name='federated.1jg913c0zldkuj12y6k631o7dc77' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+        <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+        <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.1jg913c0zldkuj12y6k631o7dc77'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+          <semantic-values semantic-role='[Country].[Name]'>
+            <semantic-value key='&quot;United Arabian Emirates&quot;' value='&quot;United Arab Emirates&quot;' />
+            <semantic-value key='&quot;Uruquay&quot;' value='&quot;Uruguay&quot;' />
+          </semantic-values>
+        </column>
+        <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]'>
+        <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1jg913c0zldkuj12y6k631o7dc77].[none:Country:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]'>
+        <groupfilter function='level-members' level='[yr:Years:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1jg913c0zldkuj12y6k631o7dc77].[yr:Years:ok]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_D0DEA6E734934C35B990EE44F94D69A6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Chart 4' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Company' />
+        <param name='target' value='Chart 4' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Chart 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Tableau Regular' fontsize='14'>Layoff Trends Over Time (2020-2024)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Layoff_Trends _Over _Time _(2020-2024)' name='federated.0jzwk021294lp2190gim4123ub01' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Laid_off]' derivation='Sum' name='[sum:Total_Laid_off:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Quarter-Trunc' name='[tqr:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]</column>
+            <column>[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jzwk021294lp2190gim4123ub01].[tqr:Date:qk]' field-type='quantitative' min='#2019-10-09 00:00:00#' range-type='fixedminuniformmax' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0jzwk021294lp2190gim4123ub01].[tqr:Date:qk]' scope='cols' value='Quarter of Date' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.44977900385856628' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jzwk021294lp2190gim4123ub01].[sum:Total_Laid_off:qk]</rows>
+        <cols>[federated.0jzwk021294lp2190gim4123ub01].[tqr:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{FFEEA39E-5F04-400F-8F56-E7512BC13AED}' />
+    </worksheet>
+    <worksheet name='Chart 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular' fontsize='14'>Top Industries Affected by Year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Top_10_Affected_Industries_by_Year (3)' name='federated.0xjz34s0kcckie13xbnv50ezsa5v' />
+            <datasource caption='Layoff_Trends _Over _Time _(2020-2024)' name='federated.0jzwk021294lp2190gim4123ub01' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Laid_off]' derivation='Sum' name='[sum:Total_Laid_off:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[none:Industry:nk]' direction='ASC' using='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[sum:Total_Laid_off:qk]' />
+          <slices>
+            <column>[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]</column>
+            <column>[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[sum:Total_Laid_off:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[none:Industry:nk]' />
+              <text column='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[sum:Total_Laid_off:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3293370008468628' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xjz34s0kcckie13xbnv50ezsa5v].[sum:Total_Laid_off:qk]</rows>
+        <cols>[federated.0xjz34s0kcckie13xbnv50ezsa5v].[none:Industry:nk]</cols>
+      </table>
+      <simple-id uuid='{3095980B-12DD-4DA6-A38A-C982F93B552E}' />
+    </worksheet>
+    <worksheet name='Chart 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular' fontsize='14'>Layoffs Across the Globe</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Top_10_Affected_Industries_by_Year' name='federated.1jg913c0zldkuj12y6k631o7dc77' />
+            <datasource caption='Layoff_Trends _Over _Time _(2020-2024)' name='federated.0jzwk021294lp2190gim4123ub01' />
+            <datasource caption='Top_10_Affected_Industries_by_Year (3)' name='federated.0xjz34s0kcckie13xbnv50ezsa5v' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+            <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+            <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1jg913c0zldkuj12y6k631o7dc77'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;United Arabian Emirates&quot;' value='&quot;United Arab Emirates&quot;' />
+                <semantic-value key='&quot;Uruquay&quot;' value='&quot;Uruguay&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Total Laid off' datatype='integer' name='[Total_Laid_off]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Laid_off]' derivation='Sum' name='[sum:Total_Laid_off:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jg913c0zldkuj12y6k631o7dc77].[yr:Years:ok]'>
+            <groupfilter function='level-members' level='[yr:Years:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1jg913c0zldkuj12y6k631o7dc77].[yr:Years:ok]</column>
+            <column>[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]</column>
+            <column>[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1jg913c0zldkuj12y6k631o7dc77].[Longitude (generated)]' field-type='quantitative' max='31211450.084124904' min='-12269754.932310898' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1jg913c0zldkuj12y6k631o7dc77].[Latitude (generated)]' field-type='quantitative' max='11091145.037632916' min='-8926841.7505823728' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1jg913c0zldkuj12y6k631o7dc77].[sum:Total_Laid_off:qk]' num-steps='5' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1jg913c0zldkuj12y6k631o7dc77].[none:Country:nk]' />
+              <lod column='[federated.1jg913c0zldkuj12y6k631o7dc77].[none:Country:nk]' />
+              <color column='[federated.1jg913c0zldkuj12y6k631o7dc77].[sum:Total_Laid_off:qk]' />
+              <geometry column='[federated.1jg913c0zldkuj12y6k631o7dc77].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jg913c0zldkuj12y6k631o7dc77].[Latitude (generated)]</rows>
+        <cols>[federated.1jg913c0zldkuj12y6k631o7dc77].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A9DA43E6-01D1-4B75-9749-587AB8AAAD40}' />
+    </worksheet>
+    <worksheet name='Chart 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular' fontsize='14'>Companies with the Most Layoffs (Top 10 Yearly)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Companies_with_the_Most_Layoffs_(Top 10 Yearly)' name='federated.11mfed60lps7lk1972o8o07446mw' />
+            <datasource caption='Top_10_Affected_Industries_by_Year (3)' name='federated.0xjz34s0kcckie13xbnv50ezsa5v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+            <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+            <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.11mfed60lps7lk1972o8o07446mw'>
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stage]' role='dimension' type='nominal' />
+            <column caption='Total Laid Off' datatype='integer' name='[Total_Laid_Off]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stage]' derivation='None' name='[none:Stage:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Laid_Off]' derivation='Sum' name='[sum:Total_Laid_Off:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.11mfed60lps7lk1972o8o07446mw].[none:Company:nk]' direction='DESC' using='[federated.11mfed60lps7lk1972o8o07446mw].[sum:Total_Laid_Off:qk]' />
+          <filter class='categorical' column='[federated.11mfed60lps7lk1972o8o07446mw].[yr:Years:ok]'>
+            <groupfilter function='level-members' level='[yr:Years:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.11mfed60lps7lk1972o8o07446mw].[yr:Years:ok]</column>
+            <column>[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.11mfed60lps7lk1972o8o07446mw].[none:Company:nk]' />
+              <text column='[federated.11mfed60lps7lk1972o8o07446mw].[sum:Total_Laid_Off:qk]' />
+              <lod column='[federated.11mfed60lps7lk1972o8o07446mw].[none:Stage:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11mfed60lps7lk1972o8o07446mw].[none:Company:nk]</rows>
+        <cols>[federated.11mfed60lps7lk1972o8o07446mw].[sum:Total_Laid_Off:qk]</cols>
+      </table>
+      <simple-id uuid='{A96AD2A9-B93F-4710-B6E9-AF51B5821561}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular'>Tech Layoffs: A 5-Year Industry Breakdown (2020-2024)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Layoff_Trends _Over _Time _(2020-2024)' name='federated.0jzwk021294lp2190gim4123ub01' />
+        <datasource caption='Top_10_Affected_Industries_by_Year (3)' name='federated.0xjz34s0kcckie13xbnv50ezsa5v' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0jzwk021294lp2190gim4123ub01'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.0xjz34s0kcckie13xbnv50ezsa5v'>
+        <column datatype='date' name='[Years]' role='dimension' type='ordinal' />
+        <column-instance column='[Years]' derivation='Year' name='[yr:Years:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='17' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='6118' id='18' type-v2='title' w='99034' x='483' y='999'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91884' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='7117'>
+              <zone h='91884' id='5' type-v2='layout-basic' w='89378' x='483' y='7117'>
+                <zone h='45939' id='3' name='Chart 1' w='44687' x='483' y='7117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45939' id='10' name='Chart 2' w='44691' x='45170' y='7117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45945' id='12' name='Chart 3' w='44687' x='483' y='53056'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45945' id='15' name='Chart 4' w='44691' x='45170' y='53056'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='91884' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='7117'>
+                <zone h='7616' id='8' mode='checkdropdown' name='Chart 1' param='[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]' type-v2='filter' w='9656' x='89861' y='7117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='21723' id='11' mode='radiolist' name='Chart 2' param='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]' type-v2='filter' w='9656' x='89861' y='14733'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='62545' id='9' mode='checklist' name='Chart 1' param='[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]' type-v2='filter' w='9656' x='89861' y='36456'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular'>Tech Layoffs: A 5-Year Industry Breakdown (2020-2024)</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='23' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone h='6118' id='18' type-v2='title' w='99034' x='483' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7616' id='8' mode='checkdropdown' name='Chart 1' param='[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]' type-v2='filter' w='9656' x='89861' y='7117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='62545' id='9' mode='checkdropdown' name='Chart 1' param='[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]' type-v2='filter' w='9656' x='89861' y='36456'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45939' id='3' is-fixed='true' name='Chart 1' w='44687' x='483' y='7117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21723' id='11' mode='dropdown' name='Chart 2' param='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]' type-v2='filter' w='9656' x='89861' y='14733'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45939' id='10' is-fixed='true' name='Chart 2' w='44691' x='45170' y='7117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45945' id='12' is-fixed='true' name='Chart 3' w='44687' x='483' y='53056'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45945' id='15' is-fixed='true' name='Chart 4' w='44691' x='45170' y='53056'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A4ED0033-4204-49FC-95CB-6F4CB2876CD1}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='141'>
+    <window class='worksheet' name='Chart 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.0jzwk021294lp2190gim4123ub01].[none:Country:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0jzwk021294lp2190gim4123ub01].[none:Industry:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B73EBCB8-7A7F-44D8-BF37-53977D54D8CA}' />
+    </window>
+    <window class='worksheet' name='Chart 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[yr:Years:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0xjz34s0kcckie13xbnv50ezsa5v].[none:Industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{000AE858-14D5-44F4-BBB7-51259FB5133D}' />
+    </window>
+    <window class='worksheet' name='Chart 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1jg913c0zldkuj12y6k631o7dc77].[yr:Years:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1jg913c0zldkuj12y6k631o7dc77].[sum:Total_Laid_off:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3A9B8426-899A-4E4E-B5D9-FB47D1F0C009}' />
+    </window>
+    <window class='worksheet' name='Chart 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.11mfed60lps7lk1972o8o07446mw].[yr:Years:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.11mfed60lps7lk1972o8o07446mw].[none:Company:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C7A599F9-52C8-44E0-B288-E888F816BBBC}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Chart 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Chart 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Chart 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Chart 4' />
+      </viewpoints>
+      <active id='18' />
+      <simple-id uuid='{72A45D49-E216-4178-80EA-24A8CEC83AAE}' />
+    </window>
+  </windows>
+</workbook>

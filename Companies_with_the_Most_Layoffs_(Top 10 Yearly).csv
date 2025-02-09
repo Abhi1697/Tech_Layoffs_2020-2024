@@ -1,0 +1,51 @@
+Company,Total_Laid_Off,Years,Stage,Ranking
+Uber,7300,2020,Post-IPO,1
+Swiggy,2250,2020,"Series I",2
+Airbnb,1900,2020,"Private Equity",3
+PaisaBazaar,1500,2020,"Series G",4
+Ola,1400,2020,"Series J",5
+Toast,1300,2020,"Series F",6
+Yelp,1000,2020,Post-IPO,7
+Lyft,982,2020,Post-IPO,8
+LinkedIn,960,2020,Acquired,9
+TripAdvisor,900,2020,Post-IPO,10
+Katerra,2434,2021,Unknown,1
+Zillow,2000,2021,Post-IPO,2
+Better.com,900,2021,Unknown,3
+Dropbox,315,2021,Post-IPO,4
+Bounce,200,2021,"Series D",5
+Postmates,180,2021,Acquired,6
+"New Relic",160,2021,Post-IPO,7
+Quandoo,87,2021,Acquired,8
+BitTitan,70,2021,Acquired,9
+Hubba,45,2021,"Series B",10
+Meta,11000,2022,Post-IPO,1
+Amazon,10150,2022,Post-IPO,2
+Cisco,4100,2022,Post-IPO,3
+Peloton,4084,2022,Post-IPO,4
+Twitter,3700,2022,Post-IPO,5
+Better.com,3000,2022,Unknown,6
+Gopuff,2300,2022,"Series H",7
+Crypto.com,2260,2022,Unknown,8
+Unacademy,1500,2022,"Series H",9
+Redfin,1332,2022,Post-IPO,10
+Amazon,17000,2023,Post-IPO,1
+Google,12000,2023,Post-IPO,2
+Meta,10000,2023,Post-IPO,3
+Ericsson,8500,2023,Post-IPO,4
+Flink,8100,2023,"Series B",5
+"SaleSan Francisco Bay Areaorce",8000,2023,Post-IPO,6
+Micron,7200,2023,Post-IPO,7
+SAP,3000,2023,Post-IPO,8
+Getir,2500,2023,"Series E",9
+Spotify,2300,2023,Post-IPO,10
+SAP,8000,2024,Post-IPO,1
+Toshiba,5000,2024,Post-IPO,2
+Cisco,4250,2024,Post-IPO,3
+Xerox,3000,2024,Post-IPO,4
+PayPal,2500,2024,Post-IPO,5
+Farfetch,2000,2024,Acquired,6
+Unity,1800,2024,Post-IPO,7
+Wayfair,1650,2024,Post-IPO,8
+Expedia,1500,2024,Post-IPO,9
+Flipkart,1100,2024,Acquired,10
